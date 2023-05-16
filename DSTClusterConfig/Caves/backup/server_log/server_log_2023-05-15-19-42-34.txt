@@ -1,0 +1,2655 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 39%
+	Available Physical Memory: 19827m/32620m
+	Available Page File: 19260m/37484m
+	Available Virtual Memory: 134213484m/134217727m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 31m
+	Working Set Size: 31m
+	Quota Peak Page Pool Usage: 210k
+	Quota Page Pool Usage: 206k
+	Quota Peak Non Paged Pool Usage:14k
+	Quota Non Paged Pool Usage: 13k
+	Page File Usage: 5m
+	Peak Page File Usage: 5m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/448111474/Cluster_7/Caves/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 556225
+[00:00:00]: Current time: Mon May 15 16:49:24 2023
+
+[00:00:00]: Don't Starve Together: 556225 WIN32
+[00:00:00]: Build Date: 1969
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -monitor_parent_process 84292 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_7 -ownernetid 76561198408377202 -ownerdir 448111474 -clouddir 448111474 -backup_log_count 25 -backup_log_period 0 -ugc_directory D:\\steam\\steamapps\\workshop -shard Caves -secondary_log_prefix caves -sigprefix DST_Secondary -token *********************************************************************************** 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (58892)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:0.52
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(10998, 27017)
+[00:00:01]: [Steam] SteamGameServer_Init success
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: Platform: 1
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Authorized application D:\steam\steamapps\common\Don't Starve Together\bin64\dontstarve_dedicated_server_nullrenderer_x64.exe is enabled in the firewall.
+[00:00:01]: WindowsFirewall - Application already authorized
+[00:00:01]: THREAD - started 'StreamInput' (79696)
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/448111474/client_save/blocklist.txt (Failure)
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/448111474/client_save/adminlist.txt (Failure)
+[00:00:01]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/448111474/client_save/whitelist.txt (Failure)
+[00:00:01]: Offline user ID: OU_76561198408377202
+[00:00:01]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 专业版
+    version                   10.0.19044
+    platformSpecific          SP 0.0
+    architecture              64 位
+  CPU                       
+    clockSpeed                3201
+    name                      AMD Ryzen 7 5800H with Radeon Graphics         
+    manufacturer              AuthenticAMD
+    numCores                  8
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+  RAM                       
+    megsOfRam                 32768
+  GPU                       
+    megsOfRam                 4095
+    videoModeDescription      2560 x 1600 x 4294967296 种颜色
+    name                      NVIDIA GeForce RTX 3070 Laptop GPU
+    driverVersion             31.0.15.2802
+    driverDate                20221222000000.000000-000
+    refreshRate               165
+
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: AppVersion::GetArchitecture() x64
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:02]:   taskgrouplist:	default	联机版	
+[00:00:02]:   taskgrouplist:	classic	经典	
+[00:00:02]:   taskgrouplist:	cave_default	地下	
+[00:00:02]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:02]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:02]: Running main.lua
+	
+[00:00:02]: loaded modindex	
+[00:00:02]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:02]: SUCCESS: Loaded modoverrides.lua	
+[00:00:02]: modoverrides.lua enabling workshop-374550642	
+[00:00:02]: modoverrides.lua enabling workshop-1694540893	
+[00:00:02]: modoverrides.lua enabling workshop-347079953	
+[00:00:02]: modoverrides.lua enabling workshop-2032685784	
+[00:00:02]: modoverrides.lua enabling workshop-623749604	
+[00:00:02]: modoverrides.lua enabling workshop-501385076	
+[00:00:02]: modoverrides.lua enabling workshop-2963262385	
+[00:00:02]: modoverrides.lua enabling workshop-684098549	
+[00:00:02]: modoverrides.lua enabling workshop-2574469496	
+[00:00:02]: modoverrides.lua enabling workshop-1905387692	
+[00:00:02]: modoverrides.lua enabling workshop-676503184	
+[00:00:02]: modoverrides.lua enabling workshop-378160973	
+[00:00:03]: modoverrides.lua enabling workshop-620716967	
+[00:00:03]: modoverrides.lua enabling workshop-350811795	
+[00:00:03]: modoverrides.lua enabling workshop-2506863549	
+[00:00:03]: modoverrides.lua enabling workshop-2119742489	
+[00:00:03]: modoverrides.lua enabling workshop-2694393579	
+[00:00:03]: modoverrides.lua enabling workshop-356420397	
+[00:00:03]: modoverrides.lua enabling workshop-375859599	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1905387692	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2032685784	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-350811795	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-356420397	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-374550642	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-501385076	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-676503184	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-684098549	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2963262385	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2574469496	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-620716967	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-623749604	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2506863549	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1694540893	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2694393579	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2119742489	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-1905387692_CLIENT	
+[00:00:03]: Loading mod: workshop-1905387692 (Warfarin: The Lonesome) Version:6.8.2362	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-2032685784_CLIENT	
+[00:00:03]: Loading mod: workshop-2032685784 (Extra Equip Slots) Version:1.8.2	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-347079953_CLIENT	
+[00:00:03]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-350811795_CLIENT	
+[00:00:03]: Loading mod: workshop-350811795 (Soulmates) Version:1.6	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-356420397_CLIENT	
+[00:00:03]: Loading mod: workshop-356420397 (No More Respawn Penalty) Version:1.3	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-374550642_CLIENT	
+[00:00:03]: Loading mod: workshop-374550642 (Increased Stack size) Version:1.62	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-501385076_CLIENT	
+[00:00:03]: Loading mod: workshop-501385076 (Quick Pick) Version:1.4.0	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-676503184_CLIENT	
+[00:00:03]: Loading mod: workshop-676503184 (Deadpool) Version:1	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-684098549_CLIENT	
+[00:00:03]: Loading mod: workshop-684098549 (Remilia Scarlet) Version:2.1	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-2963262385_CLIENT	
+[00:00:03]: Loading mod: workshop-2963262385 (镰刀[Re-Fixed]) Version:2.43	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-2574469496_CLIENT	
+[00:00:03]: Loading mod: workshop-2574469496 (A Big Bag（大背包）) Version:2.2.9	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-378160973_CLIENT	
+[00:00:03]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.4	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-620716967_CLIENT	
+[00:00:03]: Loading mod: workshop-620716967 (Flandre Scarlet) Version:1.3.0	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-623749604_CLIENT	
+[00:00:03]: Loading mod: workshop-623749604 (Storeroom) Version:2.6a	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-2506863549_CLIENT	
+[00:00:03]: Loading mod: workshop-2506863549 (御坂妹妹) Version:0.2.3	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-1694540893_CLIENT	
+[00:00:03]: Loading mod: workshop-1694540893 (大狐狸(Millennium Fox)) Version:2.5.2.0	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-2694393579_CLIENT	
+[00:00:03]: Loading mod: workshop-2694393579 (Ganyu) Version:1.1	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-2119742489_CLIENT	
+[00:00:03]: Loading mod: workshop-2119742489 (Fast Travel (GUI)) Version:2.21	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-375859599_CLIENT	
+[00:00:03]: Loading mod: workshop-375859599 (Health Info) Version:2.2.03	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-374550642	
+[00:00:03]: Overriding mod workshop-374550642's option MAXSTACKSIZE with value 99	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-1694540893	
+[00:00:03]: Overriding mod workshop-1694540893's option huli_language_set with value Chs	
+[00:00:03]: Overriding mod workshop-1694540893's option gumifan_set_mine with value 1	
+[00:00:03]: Overriding mod workshop-1694540893's option xhl_cl_set with value 1	
+[00:00:03]: Overriding mod workshop-1694540893's option huli_ty_set with value 1	
+[00:00:03]: Overriding mod workshop-1694540893's option huli_store_set with value 开启	
+[00:00:03]: Overriding mod workshop-1694540893's option huli_science_bonus_set with value 1	
+[00:00:03]: Overriding mod workshop-1694540893's option Title with value 	
+[00:00:03]: Overriding mod workshop-1694540893's option Title with value 	
+[00:00:03]: Overriding mod workshop-1694540893's option huli_gem_droppro_set with value 1	
+[00:00:03]: Overriding mod workshop-1694540893's option gumifan_set_chop with value 1	
+[00:00:03]: Overriding mod workshop-1694540893's option huli_getlevelexp_set with value 1	
+[00:00:03]: Overriding mod workshop-1694540893's option gumifan_set_dig with value 0	
+[00:00:03]: Overriding mod workshop-1694540893's option huli_equiplevelup_set with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[00:00:03]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[00:00:03]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-2032685784	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-623749604	
+[00:00:03]: Overriding mod workshop-623749604's option FoodSpoilage with value 1	
+[00:00:03]: Overriding mod workshop-623749604's option Destroyable with value DestroyByAll	
+[00:00:03]: Overriding mod workshop-623749604's option Slots with value 80	
+[00:00:03]: Overriding mod workshop-623749604's option Position with value Center	
+[00:00:03]: Overriding mod workshop-623749604's option Language with value En	
+[00:00:03]: Overriding mod workshop-623749604's option Craft with value Normal	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-501385076	
+[00:00:03]: Overriding mod workshop-501385076's option quick_pick_cactus with value true	
+[00:00:03]: Overriding mod workshop-501385076's option quick_pick_plant_normal_ground with value true	
+[00:00:03]: Overriding mod workshop-501385076's option quick_cook_on_fire with value true	
+[00:00:03]: Overriding mod workshop-501385076's option quick_harvest with value true	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-2963262385	
+[00:00:03]: Overriding mod workshop-2963262385's option durability with value fine	
+[00:00:03]: Overriding mod workshop-2963262385's option mow_berrybush with value no	
+[00:00:03]: Overriding mod workshop-2963262385's option picking_rate with value fast	
+[00:00:03]: Overriding mod workshop-2963262385's option mow_farmplant with value no	
+[00:00:03]: Overriding mod workshop-2963262385's option mow_rock_avocado_bush with value no	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-684098549	
+[00:00:03]: Overriding mod workshop-684098549's option remilia_diet with value blood	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-2574469496	
+[00:00:03]: Overriding mod workshop-2574469496's option BAGSIZE with value 3	
+[00:00:03]: Overriding mod workshop-2574469496's option BIGBAGPICK with value false	
+[00:00:03]: Overriding mod workshop-2574469496's option KEEPFRESH with value true	
+[00:00:03]: Overriding mod workshop-2574469496's option BIGBAGWATER with value false	
+[00:00:03]: Overriding mod workshop-2574469496's option FRESH with value true	
+[00:00:03]: Overriding mod workshop-2574469496's option HEATROCKTEMPERATURE with value false	
+[00:00:03]: Overriding mod workshop-2574469496's option WALKSPEED with value 1	
+[00:00:03]: Overriding mod workshop-2574469496's option CONTAINERDRAG_SWITCH with value KEY_F1	
+[00:00:03]: Overriding mod workshop-2574469496's option STACK with value false	
+[00:00:03]: Overriding mod workshop-2574469496's option BAGINBAG with value false	
+[00:00:03]: Overriding mod workshop-2574469496's option RECIPE with value 3	
+[00:00:03]: Overriding mod workshop-2574469496's option NICEBIGBAGSIZE with value 2	
+[00:00:03]: Overriding mod workshop-2574469496's option LIGHT with value false	
+[00:00:03]: Overriding mod workshop-2574469496's option LANG with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-1905387692	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-676503184	
+[00:00:03]: Overriding mod workshop-676503184's option teleportdodelta with value -5	
+[00:00:03]: Overriding mod workshop-676503184's option katanasbasedamage with value 30	
+[00:00:03]: Overriding mod workshop-676503184's option deadpoolbasesanity with value 20	
+[00:00:03]: Overriding mod workshop-676503184's option deadpoolbasedamage with value 1	
+[00:00:03]: Overriding mod workshop-676503184's option deadpoolbasehp with value 150	
+[00:00:03]: Overriding mod workshop-676503184's option deadpoolbasehpregen with value 1	
+[00:00:03]: Overriding mod workshop-676503184's option deadpoolbasehunger with value 100	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:03]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:03]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:03]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:03]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:03]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:03]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:03]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-620716967	
+[00:00:03]: Overriding mod workshop-620716967's option fran_diet with value blood	
+[00:00:03]: Overriding mod workshop-620716967's option fran_difficulty with value normal	
+[00:00:03]: Overriding mod workshop-620716967's option fran_language with value english	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-350811795	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-2506863549	
+[00:00:03]: Overriding mod workshop-2506863549's option  with value 0	
+[00:00:03]: Overriding mod workshop-2506863549's option gekota_amulet with value 1	
+[00:00:03]: Overriding mod workshop-2506863549's option night_vision_goggles with value 2	
+[00:00:03]: Overriding mod workshop-2506863549's option iron_sand_sword with value 34	
+[00:00:03]: Overriding mod workshop-2506863549's option storage_space_key with value 118	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-2119742489	
+[00:00:03]: Overriding mod workshop-2119742489's option Ownership with value false	
+[00:00:03]: Overriding mod workshop-2119742489's option Sanity_Cost with value 1	
+[00:00:03]: Overriding mod workshop-2119742489's option Hunger_Cost with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-2694393579	
+[00:00:03]: Overriding mod workshop-2694393579's option  with value 0	
+[00:00:03]: Overriding mod workshop-2694393579's option  with value 0	
+[00:00:03]: Overriding mod workshop-2694393579's option er with value 1	
+[00:00:03]: Overriding mod workshop-2694393579's option hr with value 0.7	
+[00:00:03]: Overriding mod workshop-2694393579's option hp with value 150	
+[00:00:03]: Overriding mod workshop-2694393579's option san with value 150	
+[00:00:03]: Overriding mod workshop-2694393579's option cm2 with value false	
+[00:00:03]: Overriding mod workshop-2694393579's option dmg with value 30	
+[00:00:03]: Overriding mod workshop-2694393579's option language with value 1	
+[00:00:03]: Overriding mod workshop-2694393579's option cm6 with value false	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-356420397	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-375859599	
+[00:00:03]: Overriding mod workshop-375859599's option random_range with value 0	
+[00:00:03]: Overriding mod workshop-375859599's option divider with value 5	
+[00:00:03]: Overriding mod workshop-375859599's option use_blacklist with value true	
+[00:00:03]: Overriding mod workshop-375859599's option unknwon_prefabs with value 1	
+[00:00:03]: Overriding mod workshop-375859599's option show_type with value 0	
+[00:00:03]: Overriding mod workshop-375859599's option send_unknwon_prefabs with value false	
+[00:00:03]: Overriding mod workshop-375859599's option random_health_value with value 0	
+[00:00:03]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	Loading modmain.lua	
+[00:00:03]: Warning: function AddRecipeTab in modmain is deprecated.	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	warfarindagger	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	warfarindagger_marble	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	warfarindagger_night	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	warfarindagger_liar	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hat_warfarinhood	
+[00:00:03]: modimport: ../mods/workshop-1905387692/scr/warfarin_states.lua	
+[00:00:03]: modimport: ../mods/workshop-1905387692/scr/warfarin_strings.lua	
+[00:00:03]: modimport: ../mods/workshop-1905387692/scr/warfarin_post.lua	
+[00:00:03]: modimport: ../mods/workshop-1905387692/scr/warfarin_acts.lua	
+[00:00:03]: Mod: workshop-2032685784 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-2032685784 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-2032685784 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:03]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
+[00:00:03]: Mod: workshop-2119742489 (Fast Travel (GUI))	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-2119742489 (Fast Travel (GUI))	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-2119742489 (Fast Travel (GUI))	Loading modmain.lua	
+[00:00:03]: Mod: workshop-375859599 (Health Info)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-375859599 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-375859599 (Health Info)	Loading modmain.lua	
+[00:00:03]: modimport: ../mods/workshop-375859599/black_white_lists.lua	
+[00:00:03]: Mod: workshop-374550642 (Increased Stack size)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-374550642 (Increased Stack size)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-374550642 (Increased Stack size)	Loading modmain.lua	
+[00:00:03]: Mod: workshop-2963262385 (镰刀[Re-Fixed])	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-2963262385 (镰刀[Re-Fixed])	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-2963262385 (镰刀[Re-Fixed])	Loading modmain.lua	
+[00:00:03]: modimport: ../mods/workshop-2963262385/modlangstrings	
+[00:00:03]: WARNING: Positional Action parameters are deprecated. Please pass action a table instead.	
+[00:00:03]: Action defined at 	../mods/workshop-2963262385/modmain.lua:149 in () ? (main) <0-0>	
+[00:00:03]: Mod: workshop-2506863549 (御坂妹妹)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-2506863549 (御坂妹妹)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-2506863549 (御坂妹妹)	Loading modmain.lua	
+[00:00:03]: Warning: function AddRecipeTab in modmain is deprecated.	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	iron_sand_sword	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	night_vision_goggles	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	gekota_amulet	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	computer_accessories	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	sisters_chest_technology	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	sisters_chest_time_stop	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	sisters_chest_time_accelerate	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	sisters_chest_big	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	sisters_chest_compress	
+[00:00:03]: modimport: ../mods/workshop-2506863549/scripts/main/sisters_hook	
+[00:00:03]: modimport: ../mods/workshop-2506863549/scripts/main/sisters_main	
+[00:00:03]: modimport: ../mods/workshop-2506863549/scripts/widgets/sisters_containers	
+[00:00:03]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	Loading modworldgenmain.lua	
+[00:00:03]: modimport: ../mods/workshop-1694540893/tileadder.lua	
+[00:00:03]: modimport: ../mods/workshop-1694540893/tiledescription.lua	
+[00:00:03]: 开始添加 Tile	
+[00:00:03]: 33	is reserved, incrementing...	
+[00:00:03]: 34	is reserved, incrementing...	
+[00:00:03]: 35	is reserved, incrementing...	
+[00:00:03]: 36	is reserved, incrementing...	
+[00:00:03]: 37	is reserved, incrementing...	
+[00:00:03]: 38	is reserved, incrementing...	
+[00:00:03]: 39	is reserved, incrementing...	
+[00:00:03]: lowest founded value:	40	
+[00:00:03]: tile	orient	added!	
+[00:00:03]: 33	is reserved, incrementing...	
+[00:00:03]: 34	is reserved, incrementing...	
+[00:00:03]: 35	is reserved, incrementing...	
+[00:00:03]: 36	is reserved, incrementing...	
+[00:00:03]: 37	is reserved, incrementing...	
+[00:00:03]: 38	is reserved, incrementing...	
+[00:00:03]: 39	is reserved, incrementing...	
+[00:00:03]: 40	is reserved, incrementing...	
+[00:00:03]: 41	is reserved, incrementing...	
+[00:00:03]: 42	is reserved, incrementing...	
+[00:00:03]: 43	is reserved, incrementing...	
+[00:00:03]: 44	is reserved, incrementing...	
+[00:00:03]: 45	is reserved, incrementing...	
+[00:00:03]: 46	is reserved, incrementing...	
+[00:00:03]: 47	is reserved, incrementing...	
+[00:00:03]: lowest founded value:	48	
+[00:00:03]: tile	flamerose	added!	
+[00:00:03]: 33	is reserved, incrementing...	
+[00:00:03]: 34	is reserved, incrementing...	
+[00:00:03]: 35	is reserved, incrementing...	
+[00:00:03]: 36	is reserved, incrementing...	
+[00:00:03]: 37	is reserved, incrementing...	
+[00:00:03]: 38	is reserved, incrementing...	
+[00:00:03]: 39	is reserved, incrementing...	
+[00:00:03]: 40	is reserved, incrementing...	
+[00:00:03]: 41	is reserved, incrementing...	
+[00:00:03]: 42	is reserved, incrementing...	
+[00:00:03]: 43	is reserved, incrementing...	
+[00:00:03]: 44	is reserved, incrementing...	
+[00:00:03]: 45	is reserved, incrementing...	
+[00:00:03]: 46	is reserved, incrementing...	
+[00:00:03]: 47	is reserved, incrementing...	
+[00:00:03]: 48	is reserved, incrementing...	
+[00:00:03]: lowest founded value:	49	
+[00:00:03]: tile	jade	added!	
+[00:00:03]: 33	is reserved, incrementing...	
+[00:00:03]: 34	is reserved, incrementing...	
+[00:00:03]: 35	is reserved, incrementing...	
+[00:00:03]: 36	is reserved, incrementing...	
+[00:00:03]: 37	is reserved, incrementing...	
+[00:00:03]: 38	is reserved, incrementing...	
+[00:00:03]: 39	is reserved, incrementing...	
+[00:00:03]: 40	is reserved, incrementing...	
+[00:00:03]: 41	is reserved, incrementing...	
+[00:00:03]: 42	is reserved, incrementing...	
+[00:00:03]: 43	is reserved, incrementing...	
+[00:00:03]: 44	is reserved, incrementing...	
+[00:00:03]: 45	is reserved, incrementing...	
+[00:00:03]: 46	is reserved, incrementing...	
+[00:00:03]: 47	is reserved, incrementing...	
+[00:00:03]: 48	is reserved, incrementing...	
+[00:00:03]: 49	is reserved, incrementing...	
+[00:00:03]: lowest founded value:	50	
+[00:00:03]: tile	asia	added!	
+[00:00:03]: 33	is reserved, incrementing...	
+[00:00:03]: 34	is reserved, incrementing...	
+[00:00:03]: 35	is reserved, incrementing...	
+[00:00:03]: 36	is reserved, incrementing...	
+[00:00:03]: 37	is reserved, incrementing...	
+[00:00:03]: 38	is reserved, incrementing...	
+[00:00:03]: 39	is reserved, incrementing...	
+[00:00:03]: 40	is reserved, incrementing...	
+[00:00:03]: 41	is reserved, incrementing...	
+[00:00:03]: 42	is reserved, incrementing...	
+[00:00:03]: 43	is reserved, incrementing...	
+[00:00:03]: 44	is reserved, incrementing...	
+[00:00:03]: 45	is reserved, incrementing...	
+[00:00:03]: 46	is reserved, incrementing...	
+[00:00:03]: 47	is reserved, incrementing...	
+[00:00:03]: 48	is reserved, incrementing...	
+[00:00:03]: 49	is reserved, incrementing...	
+[00:00:03]: 50	is reserved, incrementing...	
+[00:00:03]: lowest founded value:	51	
+[00:00:03]: tile	marble	added!	
+[00:00:03]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	Loading modmain.lua	
+[00:00:03]: modimport: ../mods/workshop-1694540893/libs/huli_tuning.lua	
+[00:00:03]: modimport: ../mods/workshop-1694540893/libs/huli_names.lua	
+[00:00:03]: modimport: ../mods/workshop-1694540893/libs/huli_tuningitem.lua	
+[00:00:03]: modimport: ../mods/workshop-1694540893/libs/huli_keyactions.lua	
+[00:00:03]: modimport: ../mods/workshop-1694540893/libs/huli_storeitem.lua	
+[00:00:03]: modimport: ../mods/workshop-1694540893/libs/huli_widgets.lua	
+[00:00:03]: modimport: ../mods/workshop-1694540893/libs/huli_addxxapi.lua	
+[00:00:03]: modimport: ../mods/workshop-1694540893/libs/huli_Recipe.lua	
+[00:00:03]: modimport: ../mods/workshop-1694540893/data/actions/huli_actions	
+[00:00:03]: modimport: ../mods/workshop-1694540893/libs/strings_gumifan.lua	
+[00:00:03]: modimport: ../mods/workshop-1694540893/libs/strings_gumifan_eng.lua	
+[00:00:03]: modimport: ../mods/workshop-1694540893/libs/strings_xhl.lua	
+[00:00:03]: modimport: ../mods/workshop-1694540893/libs/huli_console.lua	
+[00:00:03]: modimport: ../mods/workshop-1694540893/libs/huli_inventoryimages.lua	
+[00:00:03]: Mod: workshop-623749604 (Storeroom)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-623749604 (Storeroom)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-623749604 (Storeroom)	Loading modmain.lua	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	storeroom	
+[00:00:03]: ----- STOREROOM DEBUG ----- 	
+[00:00:03]: slots = 80	
+[00:00:03]: perish = 1	
+[00:00:03]: recipe: cutstone = 20 marble = 4 boards = 20	
+[00:00:03]: widget: widgetanimbank = ui_chest_5x16 widgetpos = 	(0.00, 150.00, 0.00)	 slot_x = 15 slot_y = 4 posslot_x = 91 posslot_y = 42	
+[00:00:03]: Mod: workshop-350811795 (Soulmates)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-350811795 (Soulmates)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-350811795 (Soulmates)	Loading modmain.lua	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	bindingring	
+[00:00:03]: Mod: workshop-684098549 (Remilia Scarlet)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-684098549 (Remilia Scarlet)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-684098549 (Remilia Scarlet)	Loading modmain.lua	
+[00:00:03]: Warning: Mod Character remilia does not currently specify a gender. Please update the call to AddModCharacter to include a gender. "FEMALE", "MALE", "ROBOT", or "NEUTRAL", or "PLURAL" 	
+[00:00:03]: Warning: function AddRecipeTab in modmain is deprecated.	
+[00:00:03]: Warning: function AddRecipeTab in modmain is deprecated.	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	gungnir_fake	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	gungnir	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	smallblood	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	smallblood_1	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	smallblood_2	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	smallblood_3	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	smallblood_4	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	largeblood	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	humanblood	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	monsterblood	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	plantblood	
+[00:00:03]: Mod: workshop-501385076 (Quick Pick)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-501385076 (Quick Pick)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-501385076 (Quick Pick)	Loading modmain.lua	
+[00:00:03]: Mod: workshop-356420397 (No More Respawn Penalty)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-356420397 (No More Respawn Penalty)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-356420397 (No More Respawn Penalty)	Loading modmain.lua	
+[00:00:03]: Mod: workshop-2694393579 (Ganyu)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-2694393579 (Ganyu)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-2694393579 (Ganyu)	Loading modmain.lua	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	amosbow	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	bluegem	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	sandglass	
+[00:00:03]: modimport: ../mods/workshop-2694393579/scripts/ganyu_state.lua	
+[00:00:03]: Mod: workshop-620716967 (Flandre Scarlet)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-620716967 (Flandre Scarlet)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-620716967 (Flandre Scarlet)	Loading modmain.lua	
+[00:00:03]: Warning: function AddRecipeTab in modmain is deprecated.	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	bloodsword	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	smallblood	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	smallblood_1	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	smallblood_2	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	smallblood_3	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	smallblood_4	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	largeblood	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	largeblood_1	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	largeblood_2	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	humanblood	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	monsterblood	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	plantblood	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	franjournal	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	franjournal	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	francard1	
+[00:00:03]: Mod: workshop-676503184 (Deadpool)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-676503184 (Deadpool)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-676503184 (Deadpool)	Loading modmain.lua	
+[00:00:03]: Warning: function AddRecipeTab in modmain is deprecated.	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	katanas	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	dpgun	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	dpclip	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	dpbomb	
+[00:00:03]: Mod: workshop-2574469496 (A Big Bag（大背包）)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-2574469496 (A Big Bag（大背包）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-2574469496 (A Big Bag（大背包）)	Loading modmain.lua	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	bigbag	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	redbigbag	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	bluebigbag	
+[00:00:03]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	nicebigbag	
+[00:00:03]: modimport: ../mods/workshop-2574469496/scripts/strings_bigbag.lua	
+[00:00:03]: modimport: ../mods/workshop-2574469496/scripts/bigbag_rpc.lua	
+[00:00:03]: modimport: ../mods/workshop-2574469496/scripts/bigbag_hook.lua	
+[00:00:03]: modimport: ../mods/workshop-2574469496/scripts/bigbag_ui.lua	
+[00:00:03]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1905387692	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2032685784	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-350811795	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-356420397	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-374550642	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-501385076	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-676503184	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-684098549	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2963262385	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2574469496	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-620716967	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-623749604	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2506863549	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1694540893	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2694393579	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2119742489	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:03]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:04]: LOADING LUA SUCCESS
+[00:00:04]: Registering Server mod namespace "sisters"
+[00:00:04]: Registering Server mod namespace "food item"
+[00:00:04]: Registering Server mod namespace "workshop-378160973"
+[00:00:04]: Registering Server mod namespace "ganyu"
+[00:00:04]: Registering Server mod namespace "fasttravel"
+[00:00:04]: Registering Server mod namespace "bigbag"
+[00:00:04]: Registering Server mod namespace "huli_rpc"
+[00:00:04]: PlayerDeaths could not load morgue	
+[00:00:04]: PlayerHistory could not load player_history	
+[00:00:04]: ServerPreferences could not load server_preferences	
+[00:00:04]: ConsoleScreenSettings could not load consolescreen	
+[00:00:04]: bloom_enabled	true	
+[00:00:04]: OnFilesLoaded()	
+[00:00:04]: OnUpdatePurchaseStateComplete	
+[00:00:04]: Klump load on boot started.	
+[00:00:04]: Klump files loaded: 	0	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	Registering prefabs	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	  Registering prefab file: prefabs/warfarin	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarin	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	  Registering prefab file: prefabs/warfarin_none	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarin_none	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	  Registering prefab file: prefabs/warfarin_heart	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarinheart	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarinheart2	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarinheart3	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarinheart4	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarinroll	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	  Registering prefab file: prefabs/warfarindagger	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarindagger	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarindagger_marble	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarindagger_night	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarindagger_liar	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	  Registering prefab file: prefabs/warfarin_effects	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarin_puff	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarin_snow	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	  Registering prefab file: prefabs/shadowwarfarin	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    shadowwarfarin	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	  Registering prefab file: prefabs/warfarin_key	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarinkey	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	  Registering prefab file: prefabs/hat_warfarinhood	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    hat_warfarinhood	
+[00:00:06]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-2032685784 (Extra Equip Slots)	Registering prefabs	
+[00:00:07]: Mod: workshop-2032685784 (Extra Equip Slots)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
+[00:00:07]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-2119742489 (Fast Travel (GUI))	Registering prefabs	
+[00:00:07]: Mod: workshop-2119742489 (Fast Travel (GUI))	  Registering prefab file: prefabs/travelable_classified	
+[00:00:07]: Mod: workshop-2119742489 (Fast Travel (GUI))	    travelable_classified	
+[00:00:07]: Mod: workshop-2119742489 (Fast Travel (GUI))	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-375859599 (Health Info)	Registering prefabs	
+[00:00:07]: Mod: workshop-375859599 (Health Info)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-374550642 (Increased Stack size)	Registering prefabs	
+[00:00:07]: Mod: workshop-374550642 (Increased Stack size)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-2963262385 (镰刀[Re-Fixed])	Registering prefabs	
+[00:00:07]: Mod: workshop-2963262385 (镰刀[Re-Fixed])	  Registering prefab file: prefabs/scythe	
+[00:00:07]: Mod: workshop-2963262385 (镰刀[Re-Fixed])	    scythe	
+[00:00:07]: Mod: workshop-2963262385 (镰刀[Re-Fixed])	  Registering prefab file: prefabs/scythe_golden	
+[00:00:07]: Mod: workshop-2963262385 (镰刀[Re-Fixed])	    scythe_golden	
+[00:00:07]: Mod: workshop-2963262385 (镰刀[Re-Fixed])	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	Registering prefabs	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters_iron_sand_sword	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	    iron_sand_sword	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	    sisters	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters_none	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_none	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters_night_vision_goggles	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	    night_vision_goggles	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters_gekota	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	    gekota_amulet	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters_computer_accessories	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	    computer_accessories	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters_storage_space_prefab	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	    misaka_world_sisters_storage_space	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters_chest_technology	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_chest_technology	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_chest_technology_placer	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters_chest_time_accelerate	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_chest_time_accelerate	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_chest_time_accelerate_placer	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters_chest_time_stop	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_chest_time_stop	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_chest_time_stop_placer	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters_chest_big	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_chest_big	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_chest_big_placer	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters_chest_safe	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_chest_safe	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_chest_safe_placer	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters_chest_compress	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_chest_compress	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_chest_compress_placer	
+[00:00:07]: Mod: workshop-2506863549 (御坂妹妹)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	Registering prefabs	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/huli	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/huli_none	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli_none	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/gumifan	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    gumifan	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/skirt_x	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    skirt_x	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/foxmask	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    foxmask	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/foxmask_new	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    foxmask_new	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/huliclone	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huliclone	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/hulisoul	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    hulisoul	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/huli_gem	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huligem_sj	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huligem_qh	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huligem_hc	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huligem_jh	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huligem_gjqh	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huligem_xy	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huligem_bj	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/handfan	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    handfan	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/turfturf	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    turf_asia	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    turf_orient	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    turf_flamerose	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/gumipot	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    gumipot	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    gumipot_placer	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/firepit_ghost_fire	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    firepit_ghost_fire	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/firepit_chill_fire	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    firepit_chill_fire	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/firepit_ghost	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    firepit_ghost	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    firepit_ghost_placer	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/firepit_chill	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    firepit_chill	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    firepit_chill_placer	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/turf_marble	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    turf_marble	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/turf_jade	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    turf_jade	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/miho	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    miho	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/mihobell	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    mihobell	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/huli_fx	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli_spiritfx	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli_spirit_evilfx	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli_ground_firefx	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli_ringfx	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/xhl_cl	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    xhl_cl	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/icefox_fx	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    icefox_fx	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/huli_dango	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli_dango	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/xhl_cl_qp	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    xhl_cl_qp	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    xhl_cl_qp_db_build	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    xhl_cl_qp_db_build_placer	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/xhl_cl_qp_fx	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    xhl_cl_qp_fx	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/huli_fangzi	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli_fangzi	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli_fangzi_placer	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/huli_tingzi	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli_tingzi	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli_tingzi_placer	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/huli_rock_power	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli_rock_power	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/huli_rechargenpc	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli_rechargenpc	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/huli_wall	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    wall_asia	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    wall_asia_item	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    wall_asia_item_placer	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/mir	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    mir	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    mir2	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/miregg	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    miregg	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    miregg_cracked	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/huli_light_test	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    大狐狸灯光	
+[00:00:07]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering default mod prefab	
+[00:00:08]: Mod: workshop-623749604 (Storeroom)	Registering prefabs	
+[00:00:08]: Mod: workshop-623749604 (Storeroom)	  Registering prefab file: prefabs/storeroom	
+[00:00:08]: Mod: workshop-623749604 (Storeroom)	    storeroom	
+[00:00:08]: Mod: workshop-623749604 (Storeroom)	    storeroom_placer	
+[00:00:08]: Mod: workshop-623749604 (Storeroom)	  Registering default mod prefab	
+[00:00:08]: Mod: workshop-350811795 (Soulmates)	Registering prefabs	
+[00:00:08]: Mod: workshop-350811795 (Soulmates)	  Registering prefab file: prefabs/bindingringprefabdef	
+[00:00:08]: Mod: workshop-350811795 (Soulmates)	    bindingring	
+[00:00:08]: Mod: workshop-350811795 (Soulmates)	  Registering default mod prefab	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	Registering prefabs	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	  Registering prefab file: prefabs/remilia	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	    remilia	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	  Registering prefab file: prefabs/bloodbags	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	    smallblood	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	    largeblood	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	    monsterblood	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	    plantblood	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	    humanblood	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	    smallblood_1	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	    smallblood_2	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	    smallblood_3	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	    smallblood_4	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	    largeblood_1	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	    largeblood_2	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	  Registering prefab file: prefabs/remiliaweapons	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	    gungnir	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	    gungnir1	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	    gungnir2	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	    gungnir3	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	    gungnir4	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	    gungnir5	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	    gungnir6	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	    gungnir7	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	  Registering prefab file: prefabs/gungnirfake	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	    gungnir_fake	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	  Registering prefab file: prefabs/remibat	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	    remibat	
+[00:00:08]: Mod: workshop-684098549 (Remilia Scarlet)	  Registering default mod prefab	
+[00:00:08]: Mod: workshop-501385076 (Quick Pick)	Registering prefabs	
+[00:00:08]: Mod: workshop-501385076 (Quick Pick)	  Registering default mod prefab	
+[00:00:08]: Mod: workshop-356420397 (No More Respawn Penalty)	Registering prefabs	
+[00:00:08]: Mod: workshop-356420397 (No More Respawn Penalty)	  Registering default mod prefab	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	Registering prefabs	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	  Registering prefab file: prefabs/ganyu	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	    ganyu	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	  Registering prefab file: prefabs/ganyu_fx	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	    frostflake_explode	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	    ice_ground	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	    iceshard	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	    cryo_pearl	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	  Registering prefab file: prefabs/ganyu_bfx	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	    ganyu_charge1	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	    ganyu_charge2	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	    frostflake	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	  Registering prefab file: prefabs/icelotus	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	    lotus_pre	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	    icelotus	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	  Registering prefab file: prefabs/amosbow	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	    amosbow	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	  Registering prefab file: prefabs/ganyu_arrow	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	    amosbow_arrow	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	    ganyu_arrow1	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	    ganyu_arrow2	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	  Registering prefab file: prefabs/icejade	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	    icejade	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	  Registering prefab file: prefabs/sandglass	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	    sandglass	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	    light	
+[00:00:08]: Mod: workshop-2694393579 (Ganyu)	  Registering default mod prefab	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	Registering prefabs	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	  Registering prefab file: prefabs/fran	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	    fran	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	  Registering prefab file: prefabs/bloodsword	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	    bloodsword	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	  Registering prefab file: prefabs/bloodswordx	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	    bloodswordx	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	  Registering prefab file: prefabs/bloodbags	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	    smallblood	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	    largeblood	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	    monsterblood	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	    plantblood	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	    humanblood	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	    smallblood_1	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	    smallblood_2	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	    smallblood_3	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	    smallblood_4	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	    largeblood_1	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	    largeblood_2	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	  Registering prefab file: prefabs/franjournal	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	    franjournal	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	  Registering prefab file: prefabs/fran_none	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	    fran_none	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	  Registering prefab file: prefabs/summonfran	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	    summonfran	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	  Registering prefab file: prefabs/clonefranspear	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	    clonefranspear	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	  Registering prefab file: prefabs/francard1	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	    francard1	
+[00:00:08]: Mod: workshop-620716967 (Flandre Scarlet)	  Registering default mod prefab	
+[00:00:08]: Could not preload undefined prefab (fran_book_fx)
+[00:00:08]: Mod: workshop-676503184 (Deadpool)	Registering prefabs	
+[00:00:08]: Mod: workshop-676503184 (Deadpool)	  Registering prefab file: prefabs/deadpool	
+[00:00:08]: Mod: workshop-676503184 (Deadpool)	    deadpool	
+[00:00:08]: Mod: workshop-676503184 (Deadpool)	  Registering prefab file: prefabs/deadpool_none	
+[00:00:08]: Mod: workshop-676503184 (Deadpool)	    deadpool_none	
+[00:00:08]: Mod: workshop-676503184 (Deadpool)	  Registering prefab file: prefabs/katanas	
+[00:00:08]: Mod: workshop-676503184 (Deadpool)	    katanas	
+[00:00:08]: Mod: workshop-676503184 (Deadpool)	  Registering prefab file: prefabs/dppda	
+[00:00:08]: Mod: workshop-676503184 (Deadpool)	    dppda	
+[00:00:08]: Mod: workshop-676503184 (Deadpool)	  Registering prefab file: prefabs/dpgun	
+[00:00:08]: Mod: workshop-676503184 (Deadpool)	    dpgun	
+[00:00:08]: Mod: workshop-676503184 (Deadpool)	  Registering prefab file: prefabs/dpclip	
+[00:00:09]: Mod: workshop-676503184 (Deadpool)	    dpclip	
+[00:00:09]: Mod: workshop-676503184 (Deadpool)	  Registering prefab file: prefabs/dpbomb	
+[00:00:09]: Mod: workshop-676503184 (Deadpool)	    dpbomb	
+[00:00:09]: Mod: workshop-676503184 (Deadpool)	  Registering default mod prefab	
+[00:00:09]: Mod: workshop-2574469496 (A Big Bag（大背包）)	Registering prefabs	
+[00:00:09]: Mod: workshop-2574469496 (A Big Bag（大背包）)	  Registering prefab file: prefabs/bigbag	
+[00:00:09]: Mod: workshop-2574469496 (A Big Bag（大背包）)	    bigbag	
+[00:00:09]: Mod: workshop-2574469496 (A Big Bag（大背包）)	  Registering prefab file: prefabs/gembigbag	
+[00:00:09]: Mod: workshop-2574469496 (A Big Bag（大背包）)	    bluebigbag	
+[00:00:09]: Mod: workshop-2574469496 (A Big Bag（大背包）)	    redbigbag	
+[00:00:09]: Mod: workshop-2574469496 (A Big Bag（大背包）)	  Registering prefab file: prefabs/nicebigbag	
+[00:00:09]: Mod: workshop-2574469496 (A Big Bag（大背包）)	    nicebigbag	
+[00:00:09]: Mod: workshop-2574469496 (A Big Bag（大背包）)	  Registering default mod prefab	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:09]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:09]: 	Load FE	
+[00:00:10]: 	Load FE: done	
+[00:00:10]: THREAD - started 'FilesExistAsyncThread' (72140)
+[00:00:10]: FilesExistAsyncThread started (21923 files)...
+[00:00:10]: Check for write access: TRUE
+[00:00:10]: Check for read access: TRUE
+[00:00:10]: Available disk space for save files: 33159 MB
+[00:00:10]: ModIndex: Load sequence finished successfully.	
+[00:00:10]: Reset() returning
+[00:00:10]: [IPC] Signal 'DST_Secondary_Kill' opened  #000000000000079C
+[00:00:10]: [IPC] Registering handler for signal #000000000000079C
+[00:00:10]: [IPC] Handle #000000000000079C added to the Eventhandles
+[00:00:10]: [IPC] Signal 'DST_Secondary_ShutdownNoSave' opened  #0000000000000780
+[00:00:10]: [IPC] Registering handler for signal #0000000000000780
+[00:00:10]: [IPC] Handle #0000000000000780 added to the Eventhandles
+[00:00:10]: [IPC] Signal 'DST_Secondary_Starting' opened  #000000000000078C
+[00:00:10]: [IPC] Sending signal... #000000000000078C
+[00:00:10]: [200] Account Communication Success (6)
+[00:00:10]: Cached userid (null) saved to APP:Klei//DoNotStarveTogether/448111474/Cluster_7/Caves/save/cached_userid
+[00:00:10]: Received (KU_iNDU0Ete) from TokenPurpose
+[00:00:10]: Starting Dedicated Server Game	
+[00:00:10]: Network tick rate: U=15(2), D=0
+[00:00:10]: About to start a server with the following settings:
+[00:00:10]:   Dedicated: true
+[00:00:10]:   Online: true
+[00:00:10]:   Passworded: false
+[00:00:10]:   ServerPort: 10998
+[00:00:10]:   SteamAuthPort: 8767
+[00:00:10]:   SteamMasterServerPort: 27017
+[00:00:10]:   ClanID: false
+[00:00:10]:   ClanOnly: false
+[00:00:10]:   ClanAdmin: false
+[00:00:10]:   LanOnly: false
+[00:00:10]:   FriendsOnly: false
+[00:00:10]:   EnableAutosaver: true
+[00:00:10]:   EncodeUserPath: true
+[00:00:10]:   PVP: false
+[00:00:10]:   MaxPlayers: 6
+[00:00:10]:   GameMode: survival
+[00:00:10]:   OverridenDNS: 
+[00:00:10]:   PauseWhenEmpty: true
+[00:00:10]:   IdleTimeout: 1800s
+[00:00:10]:   VoteEnabled: false
+[00:00:10]:   InternetBroadcasting: true
+[00:00:10]: [Warning] Could not confirm port 10998 is open in the firewall. 
+[00:00:10]: Could not load mod_config_data/modconfiguration_workshop-374550642	
+[00:00:10]: Could not load mod_config_data/modconfiguration_workshop-2119742489	
+[00:00:10]: Could not load mod_config_data/modconfiguration_workshop-347079953	
+[00:00:10]: Could not load mod_config_data/modconfiguration_workshop-2032685784	
+[00:00:10]: Could not load mod_config_data/modconfiguration_workshop-676503184	
+[00:00:10]: Could not load mod_config_data/modconfiguration_workshop-1694540893	
+[00:00:10]: Could not load mod_config_data/modconfiguration_workshop-2694393579	
+[00:00:10]: Could not load mod_config_data/modconfiguration_workshop-684098549	
+[00:00:10]: Could not load mod_config_data/modconfiguration_workshop-2574469496	
+[00:00:10]: Could not load mod_config_data/modconfiguration_workshop-1905387692	
+[00:00:10]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:10]: Could not load mod_config_data/modconfiguration_workshop-620716967	
+[00:00:10]: Could not load mod_config_data/modconfiguration_workshop-350811795	
+[00:00:10]: Could not load mod_config_data/modconfiguration_workshop-2506863549	
+[00:00:10]: Could not load mod_config_data/modconfiguration_workshop-623749604	
+[00:00:10]: Could not load mod_config_data/modconfiguration_workshop-2963262385	
+[00:00:10]: Could not load mod_config_data/modconfiguration_workshop-375859599	
+[00:00:10]: Online Server Started on port: 10998
+[00:00:11]: SUCCESS: Loaded modoverrides.lua	
+[00:00:11]: Found a level data override file with these contents:	
+[00:00:11]: 	K: 	background_node_range	 V: 	table: 0000000016FBF910	
+[00:00:11]: 		K: 	1	 V: 	0	
+[00:00:11]: 		K: 	2	 V: 	1	
+[00:00:11]: 	K: 	desc	 V: 	探查洞穴…… 一起！	
+[00:00:11]: 	K: 	hideminimap	 V: 	false	
+[00:00:11]: 	K: 	id	 V: 	DST_CAVE	
+[00:00:11]: 	K: 	location	 V: 	cave	
+[00:00:11]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:11]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:11]: 	K: 	name	 V: 	洞穴	
+[00:00:11]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:00:11]: 	K: 	override_level_string	 V: 	false	
+[00:00:11]: 	K: 	overrides	 V: 	table: 0000000016FBF550	
+[00:00:11]: 		K: 	atriumgate	 V: 	default	
+[00:00:11]: 		K: 	banana	 V: 	default	
+[00:00:11]: 		K: 	basicresource_regrowth	 V: 	none	
+[00:00:11]: 		K: 	bats	 V: 	default	
+[00:00:11]: 		K: 	bats_setting	 V: 	default	
+[00:00:11]: 		K: 	beefaloheat	 V: 	default	
+[00:00:11]: 		K: 	berrybush	 V: 	default	
+[00:00:11]: 		K: 	boons	 V: 	default	
+[00:00:11]: 		K: 	branching	 V: 	default	
+[00:00:11]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:11]: 		K: 	bunnymen	 V: 	default	
+[00:00:11]: 		K: 	bunnymen_setting	 V: 	default	
+[00:00:11]: 		K: 	cave_ponds	 V: 	default	
+[00:00:11]: 		K: 	cave_spiders	 V: 	default	
+[00:00:11]: 		K: 	cavelight	 V: 	default	
+[00:00:11]: 		K: 	chess	 V: 	default	
+[00:00:11]: 		K: 	crow_carnival	 V: 	default	
+[00:00:11]: 		K: 	darkness	 V: 	default	
+[00:00:11]: 		K: 	day	 V: 	default	
+[00:00:11]: 		K: 	daywalker	 V: 	default	
+[00:00:11]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:11]: 		K: 	dustmoths	 V: 	default	
+[00:00:11]: 		K: 	earthquakes	 V: 	default	
+[00:00:11]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:11]: 		K: 	fern	 V: 	default	
+[00:00:11]: 		K: 	fissure	 V: 	default	
+[00:00:11]: 		K: 	flint	 V: 	default	
+[00:00:11]: 		K: 	flower_cave	 V: 	default	
+[00:00:11]: 		K: 	flower_cave_regrowth	 V: 	default	
+[00:00:11]: 		K: 	fruitfly	 V: 	default	
+[00:00:11]: 		K: 	ghostenabled	 V: 	always	
+[00:00:11]: 		K: 	ghostsanitydrain	 V: 	always	
+[00:00:11]: 		K: 	grass	 V: 	default	
+[00:00:11]: 		K: 	grassgekkos	 V: 	default	
+[00:00:11]: 		K: 	hallowed_nights	 V: 	default	
+[00:00:11]: 		K: 	healthpenalty	 V: 	always	
+[00:00:11]: 		K: 	hunger	 V: 	default	
+[00:00:11]: 		K: 	krampus	 V: 	default	
+[00:00:11]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:00:11]: 		K: 	lessdamagetaken	 V: 	none	
+[00:00:11]: 		K: 	lichen	 V: 	default	
+[00:00:11]: 		K: 	liefs	 V: 	default	
+[00:00:11]: 		K: 	lightflier_flower_regrowth	 V: 	default	
+[00:00:11]: 		K: 	lightfliers	 V: 	default	
+[00:00:11]: 		K: 	loop	 V: 	default	
+[00:00:11]: 		K: 	marshbush	 V: 	default	
+[00:00:11]: 		K: 	merms	 V: 	default	
+[00:00:11]: 		K: 	molebats	 V: 	default	
+[00:00:11]: 		K: 	moles_setting	 V: 	default	
+[00:00:11]: 		K: 	monkey	 V: 	default	
+[00:00:11]: 		K: 	monkey_setting	 V: 	default	
+[00:00:11]: 		K: 	mushgnome	 V: 	default	
+[00:00:11]: 		K: 	mushroom	 V: 	default	
+[00:00:11]: 		K: 	mushtree	 V: 	default	
+[00:00:11]: 		K: 	mushtree_moon_regrowth	 V: 	default	
+[00:00:11]: 		K: 	mushtree_regrowth	 V: 	default	
+[00:00:11]: 		K: 	nightmarecreatures	 V: 	default	
+[00:00:11]: 		K: 	pigs_setting	 V: 	default	
+[00:00:11]: 		K: 	portalresurection	 V: 	none	
+[00:00:11]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:11]: 		K: 	reeds	 V: 	default	
+[00:00:11]: 		K: 	regrowth	 V: 	default	
+[00:00:11]: 		K: 	resettime	 V: 	default	
+[00:00:11]: 		K: 	roads	 V: 	never	
+[00:00:11]: 		K: 	rock	 V: 	default	
+[00:00:11]: 		K: 	rocky	 V: 	default	
+[00:00:11]: 		K: 	rocky_setting	 V: 	default	
+[00:00:11]: 		K: 	sapling	 V: 	default	
+[00:00:11]: 		K: 	season_start	 V: 	default	
+[00:00:11]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:11]: 		K: 	shadowcreatures	 V: 	default	
+[00:00:11]: 		K: 	slurper	 V: 	default	
+[00:00:11]: 		K: 	slurtles	 V: 	default	
+[00:00:11]: 		K: 	slurtles_setting	 V: 	default	
+[00:00:11]: 		K: 	snurtles	 V: 	default	
+[00:00:11]: 		K: 	spawnmode	 V: 	fixed	
+[00:00:11]: 		K: 	spawnprotection	 V: 	default	
+[00:00:11]: 		K: 	specialevent	 V: 	default	
+[00:00:11]: 		K: 	spider_dropper	 V: 	default	
+[00:00:11]: 		K: 	spider_hider	 V: 	default	
+[00:00:11]: 		K: 	spider_spitter	 V: 	default	
+[00:00:11]: 		K: 	spider_warriors	 V: 	default	
+[00:00:11]: 		K: 	spiderqueen	 V: 	default	
+[00:00:11]: 		K: 	spiders	 V: 	default	
+[00:00:11]: 		K: 	spiders_setting	 V: 	default	
+[00:00:11]: 		K: 	start_location	 V: 	caves	
+[00:00:11]: 		K: 	task_set	 V: 	cave_default	
+[00:00:11]: 		K: 	temperaturedamage	 V: 	default	
+[00:00:11]: 		K: 	tentacles	 V: 	default	
+[00:00:11]: 		K: 	toadstool	 V: 	default	
+[00:00:11]: 		K: 	touchstone	 V: 	default	
+[00:00:11]: 		K: 	trees	 V: 	default	
+[00:00:11]: 		K: 	weather	 V: 	default	
+[00:00:11]: 		K: 	winters_feast	 V: 	default	
+[00:00:11]: 		K: 	world_size	 V: 	default	
+[00:00:11]: 		K: 	wormattacks	 V: 	default	
+[00:00:11]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:00:11]: 		K: 	wormlights	 V: 	default	
+[00:00:11]: 		K: 	worms	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_beefalo	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_bunnyman	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_carrat	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_catcoon	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_gobbler	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_pig	 V: 	default	
+[00:00:11]: 		K: 	year_of_the_varg	 V: 	default	
+[00:00:11]: 	K: 	required_prefabs	 V: 	table: 0000000016FBFD20	
+[00:00:11]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:11]: 	K: 	settings_desc	 V: 	探查洞穴…… 一起！	
+[00:00:11]: 	K: 	settings_id	 V: 	DST_CAVE	
+[00:00:11]: 	K: 	settings_name	 V: 	洞穴	
+[00:00:11]: 	K: 	substitutes	 V: 	table: 0000000016FBF050	
+[00:00:11]: 	K: 	version	 V: 	4	
+[00:00:11]: 	K: 	worldgen_desc	 V: 	探查洞穴…… 一起！	
+[00:00:11]: 	K: 	worldgen_id	 V: 	DST_CAVE	
+[00:00:11]: 	K: 	worldgen_name	 V: 	洞穴	
+[00:00:11]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:11]: Overwriting savedata with level data file.	
+[00:00:11]: Not applying world gen overrides.	
+[00:00:11]: Collecting garbage...
+[00:00:11]: lua_gc took 0.06 seconds
+[00:00:11]: ~ShardLuaProxy()
+[00:00:11]: ~cEventLeaderboardProxy()
+[00:00:11]: ~ItemServerLuaProxy()
+[00:00:11]: ~InventoryLuaProxy()
+[00:00:11]: ~NetworkLuaProxy()
+[00:00:11]: ~SimLuaProxy()
+[00:00:11]: FilesExistAsyncThread aborted.
+[00:00:11]: ... FilesExistAsyncThread complete
+[00:00:11]: lua_close took 0.10 seconds
+[00:00:11]: ReleaseAll
+[00:00:11]: ReleaseAll Finished
+[00:00:11]: cGame::StartPlaying
+[00:00:11]: AppVersion::GetArchitecture() x64
+[00:00:11]: LOADING LUA
+[00:00:11]: DoLuaFile scripts/main.lua
+[00:00:11]: DoLuaFile loading buffer scripts/main.lua
+[00:00:11]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:12]:   taskgrouplist:	default	联机版	
+[00:00:12]:   taskgrouplist:	classic	经典	
+[00:00:12]:   taskgrouplist:	cave_default	地下	
+[00:00:12]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:12]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:12]: Running main.lua
+	
+[00:00:12]: loaded modindex	
+[00:00:12]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:12]: SUCCESS: Loaded modoverrides.lua	
+[00:00:12]: modoverrides.lua enabling workshop-374550642	
+[00:00:12]: modoverrides.lua enabling workshop-1694540893	
+[00:00:12]: modoverrides.lua enabling workshop-347079953	
+[00:00:12]: modoverrides.lua enabling workshop-2032685784	
+[00:00:12]: modoverrides.lua enabling workshop-623749604	
+[00:00:12]: modoverrides.lua enabling workshop-501385076	
+[00:00:12]: modoverrides.lua enabling workshop-2963262385	
+[00:00:12]: modoverrides.lua enabling workshop-684098549	
+[00:00:12]: modoverrides.lua enabling workshop-2574469496	
+[00:00:12]: modoverrides.lua enabling workshop-1905387692	
+[00:00:12]: modoverrides.lua enabling workshop-676503184	
+[00:00:12]: modoverrides.lua enabling workshop-378160973	
+[00:00:12]: modoverrides.lua enabling workshop-620716967	
+[00:00:12]: modoverrides.lua enabling workshop-350811795	
+[00:00:12]: modoverrides.lua enabling workshop-2506863549	
+[00:00:12]: modoverrides.lua enabling workshop-2119742489	
+[00:00:12]: modoverrides.lua enabling workshop-2694393579	
+[00:00:12]: modoverrides.lua enabling workshop-356420397	
+[00:00:12]: modoverrides.lua enabling workshop-375859599	
+[00:00:12]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1905387692	
+[00:00:12]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2032685784	
+[00:00:12]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:12]: ModIndex:GetModsToLoad inserting moddir, 	workshop-350811795	
+[00:00:12]: ModIndex:GetModsToLoad inserting moddir, 	workshop-356420397	
+[00:00:12]: ModIndex:GetModsToLoad inserting moddir, 	workshop-374550642	
+[00:00:12]: ModIndex:GetModsToLoad inserting moddir, 	workshop-501385076	
+[00:00:12]: ModIndex:GetModsToLoad inserting moddir, 	workshop-676503184	
+[00:00:12]: ModIndex:GetModsToLoad inserting moddir, 	workshop-684098549	
+[00:00:12]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2963262385	
+[00:00:12]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2574469496	
+[00:00:12]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:12]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-620716967	
+[00:00:12]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-623749604	
+[00:00:12]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2506863549	
+[00:00:12]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1694540893	
+[00:00:12]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2694393579	
+[00:00:12]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2119742489	
+[00:00:12]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:12]: Could not load mod_config_data/modconfiguration_workshop-1905387692	
+[00:00:12]: Loading mod: workshop-1905387692 (Warfarin: The Lonesome) Version:6.8.2362	
+[00:00:12]: Could not load mod_config_data/modconfiguration_workshop-2032685784	
+[00:00:12]: Loading mod: workshop-2032685784 (Extra Equip Slots) Version:1.8.2	
+[00:00:12]: Could not load mod_config_data/modconfiguration_workshop-347079953	
+[00:00:12]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[00:00:12]: Could not load mod_config_data/modconfiguration_workshop-350811795	
+[00:00:12]: Loading mod: workshop-350811795 (Soulmates) Version:1.6	
+[00:00:12]: Could not load mod_config_data/modconfiguration_workshop-356420397	
+[00:00:12]: Loading mod: workshop-356420397 (No More Respawn Penalty) Version:1.3	
+[00:00:12]: Could not load mod_config_data/modconfiguration_workshop-374550642	
+[00:00:12]: Loading mod: workshop-374550642 (Increased Stack size) Version:1.62	
+[00:00:12]: Could not load mod_config_data/modconfiguration_workshop-501385076	
+[00:00:12]: Loading mod: workshop-501385076 (Quick Pick) Version:1.4.0	
+[00:00:12]: Could not load mod_config_data/modconfiguration_workshop-676503184	
+[00:00:12]: Loading mod: workshop-676503184 (Deadpool) Version:1	
+[00:00:12]: Could not load mod_config_data/modconfiguration_workshop-684098549	
+[00:00:12]: Loading mod: workshop-684098549 (Remilia Scarlet) Version:2.1	
+[00:00:12]: Could not load mod_config_data/modconfiguration_workshop-2963262385	
+[00:00:12]: Loading mod: workshop-2963262385 (镰刀[Re-Fixed]) Version:2.43	
+[00:00:12]: Could not load mod_config_data/modconfiguration_workshop-2574469496	
+[00:00:12]: Loading mod: workshop-2574469496 (A Big Bag（大背包）) Version:2.2.9	
+[00:00:12]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:12]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.4	
+[00:00:12]: Could not load mod_config_data/modconfiguration_workshop-620716967	
+[00:00:12]: Loading mod: workshop-620716967 (Flandre Scarlet) Version:1.3.0	
+[00:00:12]: Could not load mod_config_data/modconfiguration_workshop-623749604	
+[00:00:12]: Loading mod: workshop-623749604 (Storeroom) Version:2.6a	
+[00:00:12]: Could not load mod_config_data/modconfiguration_workshop-2506863549	
+[00:00:12]: Loading mod: workshop-2506863549 (御坂妹妹) Version:0.2.3	
+[00:00:12]: Could not load mod_config_data/modconfiguration_workshop-1694540893	
+[00:00:12]: Loading mod: workshop-1694540893 (大狐狸(Millennium Fox)) Version:2.5.2.0	
+[00:00:12]: Could not load mod_config_data/modconfiguration_workshop-2694393579	
+[00:00:12]: Loading mod: workshop-2694393579 (Ganyu) Version:1.1	
+[00:00:12]: Could not load mod_config_data/modconfiguration_workshop-2119742489	
+[00:00:12]: Loading mod: workshop-2119742489 (Fast Travel (GUI)) Version:2.21	
+[00:00:12]: Could not load mod_config_data/modconfiguration_workshop-375859599	
+[00:00:12]: Loading mod: workshop-375859599 (Health Info) Version:2.2.03	
+[00:00:12]: applying configuration_options from modoverrides.lua to mod workshop-374550642	
+[00:00:12]: Overriding mod workshop-374550642's option MAXSTACKSIZE with value 99	
+[00:00:12]: applying configuration_options from modoverrides.lua to mod workshop-1694540893	
+[00:00:12]: Overriding mod workshop-1694540893's option huli_language_set with value Chs	
+[00:00:12]: Overriding mod workshop-1694540893's option gumifan_set_mine with value 1	
+[00:00:12]: Overriding mod workshop-1694540893's option xhl_cl_set with value 1	
+[00:00:12]: Overriding mod workshop-1694540893's option huli_ty_set with value 1	
+[00:00:12]: Overriding mod workshop-1694540893's option huli_store_set with value 开启	
+[00:00:12]: Overriding mod workshop-1694540893's option huli_science_bonus_set with value 1	
+[00:00:12]: Overriding mod workshop-1694540893's option Title with value 	
+[00:00:12]: Overriding mod workshop-1694540893's option Title with value 	
+[00:00:12]: Overriding mod workshop-1694540893's option huli_gem_droppro_set with value 1	
+[00:00:12]: Overriding mod workshop-1694540893's option gumifan_set_chop with value 1	
+[00:00:12]: Overriding mod workshop-1694540893's option huli_getlevelexp_set with value 1	
+[00:00:12]: Overriding mod workshop-1694540893's option gumifan_set_dig with value 0	
+[00:00:12]: Overriding mod workshop-1694540893's option huli_equiplevelup_set with value 1	
+[00:00:12]: applying configuration_options from modoverrides.lua to mod workshop-347079953	
+[00:00:12]: Overriding mod workshop-347079953's option DFV_Language with value EN	
+[00:00:12]: Overriding mod workshop-347079953's option DFV_MinimalMode with value default	
+[00:00:12]: applying configuration_options from modoverrides.lua to mod workshop-2032685784	
+[00:00:12]: applying configuration_options from modoverrides.lua to mod workshop-623749604	
+[00:00:12]: Overriding mod workshop-623749604's option FoodSpoilage with value 1	
+[00:00:12]: Overriding mod workshop-623749604's option Destroyable with value DestroyByAll	
+[00:00:12]: Overriding mod workshop-623749604's option Slots with value 80	
+[00:00:12]: Overriding mod workshop-623749604's option Position with value Center	
+[00:00:12]: Overriding mod workshop-623749604's option Language with value En	
+[00:00:12]: Overriding mod workshop-623749604's option Craft with value Normal	
+[00:00:12]: applying configuration_options from modoverrides.lua to mod workshop-501385076	
+[00:00:12]: Overriding mod workshop-501385076's option quick_pick_cactus with value true	
+[00:00:12]: Overriding mod workshop-501385076's option quick_pick_plant_normal_ground with value true	
+[00:00:12]: Overriding mod workshop-501385076's option quick_cook_on_fire with value true	
+[00:00:12]: Overriding mod workshop-501385076's option quick_harvest with value true	
+[00:00:12]: applying configuration_options from modoverrides.lua to mod workshop-2963262385	
+[00:00:12]: Overriding mod workshop-2963262385's option durability with value fine	
+[00:00:12]: Overriding mod workshop-2963262385's option mow_berrybush with value no	
+[00:00:12]: Overriding mod workshop-2963262385's option picking_rate with value fast	
+[00:00:12]: Overriding mod workshop-2963262385's option mow_farmplant with value no	
+[00:00:12]: Overriding mod workshop-2963262385's option mow_rock_avocado_bush with value no	
+[00:00:12]: applying configuration_options from modoverrides.lua to mod workshop-684098549	
+[00:00:12]: Overriding mod workshop-684098549's option remilia_diet with value blood	
+[00:00:12]: applying configuration_options from modoverrides.lua to mod workshop-2574469496	
+[00:00:12]: Overriding mod workshop-2574469496's option BAGSIZE with value 3	
+[00:00:12]: Overriding mod workshop-2574469496's option BIGBAGPICK with value false	
+[00:00:12]: Overriding mod workshop-2574469496's option KEEPFRESH with value true	
+[00:00:12]: Overriding mod workshop-2574469496's option BIGBAGWATER with value false	
+[00:00:12]: Overriding mod workshop-2574469496's option FRESH with value true	
+[00:00:12]: Overriding mod workshop-2574469496's option HEATROCKTEMPERATURE with value false	
+[00:00:12]: Overriding mod workshop-2574469496's option WALKSPEED with value 1	
+[00:00:12]: Overriding mod workshop-2574469496's option CONTAINERDRAG_SWITCH with value KEY_F1	
+[00:00:12]: Overriding mod workshop-2574469496's option STACK with value false	
+[00:00:12]: Overriding mod workshop-2574469496's option BAGINBAG with value false	
+[00:00:12]: Overriding mod workshop-2574469496's option RECIPE with value 3	
+[00:00:12]: Overriding mod workshop-2574469496's option NICEBIGBAGSIZE with value 2	
+[00:00:12]: Overriding mod workshop-2574469496's option LIGHT with value false	
+[00:00:12]: Overriding mod workshop-2574469496's option LANG with value 1	
+[00:00:12]: applying configuration_options from modoverrides.lua to mod workshop-1905387692	
+[00:00:12]: applying configuration_options from modoverrides.lua to mod workshop-676503184	
+[00:00:12]: Overriding mod workshop-676503184's option teleportdodelta with value -5	
+[00:00:12]: Overriding mod workshop-676503184's option katanasbasedamage with value 30	
+[00:00:12]: Overriding mod workshop-676503184's option deadpoolbasesanity with value 20	
+[00:00:12]: Overriding mod workshop-676503184's option deadpoolbasedamage with value 1	
+[00:00:12]: Overriding mod workshop-676503184's option deadpoolbasehp with value 150	
+[00:00:12]: Overriding mod workshop-676503184's option deadpoolbasehpregen with value 1	
+[00:00:12]: Overriding mod workshop-676503184's option deadpoolbasehunger with value 100	
+[00:00:12]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:12]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:12]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:12]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:12]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:12]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:12]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:12]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:12]: applying configuration_options from modoverrides.lua to mod workshop-620716967	
+[00:00:12]: Overriding mod workshop-620716967's option fran_diet with value blood	
+[00:00:12]: Overriding mod workshop-620716967's option fran_difficulty with value normal	
+[00:00:12]: Overriding mod workshop-620716967's option fran_language with value english	
+[00:00:12]: applying configuration_options from modoverrides.lua to mod workshop-350811795	
+[00:00:12]: applying configuration_options from modoverrides.lua to mod workshop-2506863549	
+[00:00:12]: Overriding mod workshop-2506863549's option  with value 0	
+[00:00:12]: Overriding mod workshop-2506863549's option gekota_amulet with value 1	
+[00:00:12]: Overriding mod workshop-2506863549's option night_vision_goggles with value 2	
+[00:00:12]: Overriding mod workshop-2506863549's option iron_sand_sword with value 34	
+[00:00:12]: Overriding mod workshop-2506863549's option storage_space_key with value 118	
+[00:00:12]: applying configuration_options from modoverrides.lua to mod workshop-2119742489	
+[00:00:12]: Overriding mod workshop-2119742489's option Ownership with value false	
+[00:00:12]: Overriding mod workshop-2119742489's option Sanity_Cost with value 1	
+[00:00:12]: Overriding mod workshop-2119742489's option Hunger_Cost with value 1	
+[00:00:12]: applying configuration_options from modoverrides.lua to mod workshop-2694393579	
+[00:00:12]: Overriding mod workshop-2694393579's option  with value 0	
+[00:00:12]: Overriding mod workshop-2694393579's option  with value 0	
+[00:00:12]: Overriding mod workshop-2694393579's option er with value 1	
+[00:00:12]: Overriding mod workshop-2694393579's option hr with value 0.7	
+[00:00:12]: Overriding mod workshop-2694393579's option hp with value 150	
+[00:00:12]: Overriding mod workshop-2694393579's option san with value 150	
+[00:00:12]: Overriding mod workshop-2694393579's option cm2 with value false	
+[00:00:12]: Overriding mod workshop-2694393579's option dmg with value 30	
+[00:00:12]: Overriding mod workshop-2694393579's option language with value 1	
+[00:00:12]: Overriding mod workshop-2694393579's option cm6 with value false	
+[00:00:12]: applying configuration_options from modoverrides.lua to mod workshop-356420397	
+[00:00:12]: applying configuration_options from modoverrides.lua to mod workshop-375859599	
+[00:00:12]: Overriding mod workshop-375859599's option random_range with value 0	
+[00:00:12]: Overriding mod workshop-375859599's option divider with value 5	
+[00:00:12]: Overriding mod workshop-375859599's option use_blacklist with value true	
+[00:00:12]: Overriding mod workshop-375859599's option unknwon_prefabs with value 1	
+[00:00:12]: Overriding mod workshop-375859599's option show_type with value 0	
+[00:00:12]: Overriding mod workshop-375859599's option send_unknwon_prefabs with value false	
+[00:00:12]: Overriding mod workshop-375859599's option random_health_value with value 0	
+[00:00:12]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	Loading modworldgenmain.lua	
+[00:00:12]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:12]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	Loading modmain.lua	
+[00:00:12]: Warning: function AddRecipeTab in modmain is deprecated.	
+[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	warfarindagger	
+[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	warfarindagger_marble	
+[00:00:12]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	warfarindagger_night	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	warfarindagger_liar	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	hat_warfarinhood	
+[00:00:13]: modimport: ../mods/workshop-1905387692/scr/warfarin_states.lua	
+[00:00:13]: modimport: ../mods/workshop-1905387692/scr/warfarin_strings.lua	
+[00:00:13]: modimport: ../mods/workshop-1905387692/scr/warfarin_post.lua	
+[00:00:13]: modimport: ../mods/workshop-1905387692/scr/warfarin_acts.lua	
+[00:00:13]: Mod: workshop-2032685784 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:13]: Mod: workshop-2032685784 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:13]: Mod: workshop-2032685784 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:13]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[00:00:13]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:13]: Mod: workshop-347079953 (Display food values)	Loading modmain.lua	
+[00:00:13]: Mod: workshop-2119742489 (Fast Travel (GUI))	Loading modworldgenmain.lua	
+[00:00:13]: Mod: workshop-2119742489 (Fast Travel (GUI))	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:13]: Mod: workshop-2119742489 (Fast Travel (GUI))	Loading modmain.lua	
+[00:00:13]: Mod: workshop-375859599 (Health Info)	Loading modworldgenmain.lua	
+[00:00:13]: Mod: workshop-375859599 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:13]: Mod: workshop-375859599 (Health Info)	Loading modmain.lua	
+[00:00:13]: modimport: ../mods/workshop-375859599/black_white_lists.lua	
+[00:00:13]: Mod: workshop-374550642 (Increased Stack size)	Loading modworldgenmain.lua	
+[00:00:13]: Mod: workshop-374550642 (Increased Stack size)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:13]: Mod: workshop-374550642 (Increased Stack size)	Loading modmain.lua	
+[00:00:13]: Mod: workshop-2963262385 (镰刀[Re-Fixed])	Loading modworldgenmain.lua	
+[00:00:13]: Mod: workshop-2963262385 (镰刀[Re-Fixed])	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:13]: Mod: workshop-2963262385 (镰刀[Re-Fixed])	Loading modmain.lua	
+[00:00:13]: modimport: ../mods/workshop-2963262385/modlangstrings	
+[00:00:13]: WARNING: Positional Action parameters are deprecated. Please pass action a table instead.	
+[00:00:13]: Action defined at 	../mods/workshop-2963262385/modmain.lua:149 in () ? (main) <0-0>	
+[00:00:13]: Mod: workshop-2506863549 (御坂妹妹)	Loading modworldgenmain.lua	
+[00:00:13]: Mod: workshop-2506863549 (御坂妹妹)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:13]: Mod: workshop-2506863549 (御坂妹妹)	Loading modmain.lua	
+[00:00:13]: Warning: function AddRecipeTab in modmain is deprecated.	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	iron_sand_sword	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	night_vision_goggles	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	gekota_amulet	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	computer_accessories	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	sisters_chest_technology	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	sisters_chest_time_stop	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	sisters_chest_time_accelerate	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	sisters_chest_big	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	sisters_chest_compress	
+[00:00:13]: modimport: ../mods/workshop-2506863549/scripts/main/sisters_hook	
+[00:00:13]: modimport: ../mods/workshop-2506863549/scripts/main/sisters_main	
+[00:00:13]: modimport: ../mods/workshop-2506863549/scripts/widgets/sisters_containers	
+[00:00:13]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	Loading modworldgenmain.lua	
+[00:00:13]: modimport: ../mods/workshop-1694540893/tileadder.lua	
+[00:00:13]: modimport: ../mods/workshop-1694540893/tiledescription.lua	
+[00:00:13]: 开始添加 Tile	
+[00:00:13]: 33	is reserved, incrementing...	
+[00:00:13]: 34	is reserved, incrementing...	
+[00:00:13]: 35	is reserved, incrementing...	
+[00:00:13]: 36	is reserved, incrementing...	
+[00:00:13]: 37	is reserved, incrementing...	
+[00:00:13]: 38	is reserved, incrementing...	
+[00:00:13]: 39	is reserved, incrementing...	
+[00:00:13]: lowest founded value:	40	
+[00:00:13]: tile	orient	added!	
+[00:00:13]: 33	is reserved, incrementing...	
+[00:00:13]: 34	is reserved, incrementing...	
+[00:00:13]: 35	is reserved, incrementing...	
+[00:00:13]: 36	is reserved, incrementing...	
+[00:00:13]: 37	is reserved, incrementing...	
+[00:00:13]: 38	is reserved, incrementing...	
+[00:00:13]: 39	is reserved, incrementing...	
+[00:00:13]: 40	is reserved, incrementing...	
+[00:00:13]: 41	is reserved, incrementing...	
+[00:00:13]: 42	is reserved, incrementing...	
+[00:00:13]: 43	is reserved, incrementing...	
+[00:00:13]: 44	is reserved, incrementing...	
+[00:00:13]: 45	is reserved, incrementing...	
+[00:00:13]: 46	is reserved, incrementing...	
+[00:00:13]: 47	is reserved, incrementing...	
+[00:00:13]: lowest founded value:	48	
+[00:00:13]: tile	flamerose	added!	
+[00:00:13]: 33	is reserved, incrementing...	
+[00:00:13]: 34	is reserved, incrementing...	
+[00:00:13]: 35	is reserved, incrementing...	
+[00:00:13]: 36	is reserved, incrementing...	
+[00:00:13]: 37	is reserved, incrementing...	
+[00:00:13]: 38	is reserved, incrementing...	
+[00:00:13]: 39	is reserved, incrementing...	
+[00:00:13]: 40	is reserved, incrementing...	
+[00:00:13]: 41	is reserved, incrementing...	
+[00:00:13]: 42	is reserved, incrementing...	
+[00:00:13]: 43	is reserved, incrementing...	
+[00:00:13]: 44	is reserved, incrementing...	
+[00:00:13]: 45	is reserved, incrementing...	
+[00:00:13]: 46	is reserved, incrementing...	
+[00:00:13]: 47	is reserved, incrementing...	
+[00:00:13]: 48	is reserved, incrementing...	
+[00:00:13]: lowest founded value:	49	
+[00:00:13]: tile	jade	added!	
+[00:00:13]: 33	is reserved, incrementing...	
+[00:00:13]: 34	is reserved, incrementing...	
+[00:00:13]: 35	is reserved, incrementing...	
+[00:00:13]: 36	is reserved, incrementing...	
+[00:00:13]: 37	is reserved, incrementing...	
+[00:00:13]: 38	is reserved, incrementing...	
+[00:00:13]: 39	is reserved, incrementing...	
+[00:00:13]: 40	is reserved, incrementing...	
+[00:00:13]: 41	is reserved, incrementing...	
+[00:00:13]: 42	is reserved, incrementing...	
+[00:00:13]: 43	is reserved, incrementing...	
+[00:00:13]: 44	is reserved, incrementing...	
+[00:00:13]: 45	is reserved, incrementing...	
+[00:00:13]: 46	is reserved, incrementing...	
+[00:00:13]: 47	is reserved, incrementing...	
+[00:00:13]: 48	is reserved, incrementing...	
+[00:00:13]: 49	is reserved, incrementing...	
+[00:00:13]: lowest founded value:	50	
+[00:00:13]: tile	asia	added!	
+[00:00:13]: 33	is reserved, incrementing...	
+[00:00:13]: 34	is reserved, incrementing...	
+[00:00:13]: 35	is reserved, incrementing...	
+[00:00:13]: 36	is reserved, incrementing...	
+[00:00:13]: 37	is reserved, incrementing...	
+[00:00:13]: 38	is reserved, incrementing...	
+[00:00:13]: 39	is reserved, incrementing...	
+[00:00:13]: 40	is reserved, incrementing...	
+[00:00:13]: 41	is reserved, incrementing...	
+[00:00:13]: 42	is reserved, incrementing...	
+[00:00:13]: 43	is reserved, incrementing...	
+[00:00:13]: 44	is reserved, incrementing...	
+[00:00:13]: 45	is reserved, incrementing...	
+[00:00:13]: 46	is reserved, incrementing...	
+[00:00:13]: 47	is reserved, incrementing...	
+[00:00:13]: 48	is reserved, incrementing...	
+[00:00:13]: 49	is reserved, incrementing...	
+[00:00:13]: 50	is reserved, incrementing...	
+[00:00:13]: lowest founded value:	51	
+[00:00:13]: tile	marble	added!	
+[00:00:13]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	Loading modmain.lua	
+[00:00:13]: modimport: ../mods/workshop-1694540893/libs/huli_tuning.lua	
+[00:00:13]: modimport: ../mods/workshop-1694540893/libs/huli_names.lua	
+[00:00:13]: modimport: ../mods/workshop-1694540893/libs/huli_tuningitem.lua	
+[00:00:13]: modimport: ../mods/workshop-1694540893/libs/huli_keyactions.lua	
+[00:00:13]: modimport: ../mods/workshop-1694540893/libs/huli_storeitem.lua	
+[00:00:13]: modimport: ../mods/workshop-1694540893/libs/huli_widgets.lua	
+[00:00:13]: modimport: ../mods/workshop-1694540893/libs/huli_addxxapi.lua	
+[00:00:13]: modimport: ../mods/workshop-1694540893/libs/huli_Recipe.lua	
+[00:00:13]: modimport: ../mods/workshop-1694540893/data/actions/huli_actions	
+[00:00:13]: modimport: ../mods/workshop-1694540893/libs/strings_gumifan.lua	
+[00:00:13]: modimport: ../mods/workshop-1694540893/libs/strings_gumifan_eng.lua	
+[00:00:13]: modimport: ../mods/workshop-1694540893/libs/strings_xhl.lua	
+[00:00:13]: modimport: ../mods/workshop-1694540893/libs/huli_console.lua	
+[00:00:13]: modimport: ../mods/workshop-1694540893/libs/huli_inventoryimages.lua	
+[00:00:13]: Mod: workshop-623749604 (Storeroom)	Loading modworldgenmain.lua	
+[00:00:13]: Mod: workshop-623749604 (Storeroom)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:13]: Mod: workshop-623749604 (Storeroom)	Loading modmain.lua	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	storeroom	
+[00:00:13]: ----- STOREROOM DEBUG ----- 	
+[00:00:13]: slots = 80	
+[00:00:13]: perish = 1	
+[00:00:13]: recipe: cutstone = 20 marble = 4 boards = 20	
+[00:00:13]: widget: widgetanimbank = ui_chest_5x16 widgetpos = 	(0.00, 150.00, 0.00)	 slot_x = 15 slot_y = 4 posslot_x = 91 posslot_y = 42	
+[00:00:13]: Mod: workshop-350811795 (Soulmates)	Loading modworldgenmain.lua	
+[00:00:13]: Mod: workshop-350811795 (Soulmates)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:13]: Mod: workshop-350811795 (Soulmates)	Loading modmain.lua	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	bindingring	
+[00:00:13]: Mod: workshop-684098549 (Remilia Scarlet)	Loading modworldgenmain.lua	
+[00:00:13]: Mod: workshop-684098549 (Remilia Scarlet)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:13]: Mod: workshop-684098549 (Remilia Scarlet)	Loading modmain.lua	
+[00:00:13]: Warning: Mod Character remilia does not currently specify a gender. Please update the call to AddModCharacter to include a gender. "FEMALE", "MALE", "ROBOT", or "NEUTRAL", or "PLURAL" 	
+[00:00:13]: Warning: function AddRecipeTab in modmain is deprecated.	
+[00:00:13]: Warning: function AddRecipeTab in modmain is deprecated.	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	gungnir_fake	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	gungnir	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	smallblood	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	smallblood_1	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	smallblood_2	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	smallblood_3	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	smallblood_4	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	largeblood	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	humanblood	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	monsterblood	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	plantblood	
+[00:00:13]: Mod: workshop-501385076 (Quick Pick)	Loading modworldgenmain.lua	
+[00:00:13]: Mod: workshop-501385076 (Quick Pick)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:13]: Mod: workshop-501385076 (Quick Pick)	Loading modmain.lua	
+[00:00:13]: Mod: workshop-356420397 (No More Respawn Penalty)	Loading modworldgenmain.lua	
+[00:00:13]: Mod: workshop-356420397 (No More Respawn Penalty)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:13]: Mod: workshop-356420397 (No More Respawn Penalty)	Loading modmain.lua	
+[00:00:13]: Mod: workshop-2694393579 (Ganyu)	Loading modworldgenmain.lua	
+[00:00:13]: Mod: workshop-2694393579 (Ganyu)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:13]: Mod: workshop-2694393579 (Ganyu)	Loading modmain.lua	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	amosbow	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	bluegem	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	sandglass	
+[00:00:13]: modimport: ../mods/workshop-2694393579/scripts/ganyu_state.lua	
+[00:00:13]: Mod: workshop-620716967 (Flandre Scarlet)	Loading modworldgenmain.lua	
+[00:00:13]: Mod: workshop-620716967 (Flandre Scarlet)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:13]: Mod: workshop-620716967 (Flandre Scarlet)	Loading modmain.lua	
+[00:00:13]: Warning: function AddRecipeTab in modmain is deprecated.	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	bloodsword	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	smallblood	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	smallblood_1	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	smallblood_2	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	smallblood_3	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	smallblood_4	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	largeblood	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	largeblood_1	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	largeblood_2	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	humanblood	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	monsterblood	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	plantblood	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	franjournal	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	franjournal	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	francard1	
+[00:00:13]: Mod: workshop-676503184 (Deadpool)	Loading modworldgenmain.lua	
+[00:00:13]: Mod: workshop-676503184 (Deadpool)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:13]: Mod: workshop-676503184 (Deadpool)	Loading modmain.lua	
+[00:00:13]: Warning: function AddRecipeTab in modmain is deprecated.	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	katanas	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	dpgun	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	dpclip	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	dpbomb	
+[00:00:13]: Mod: workshop-2574469496 (A Big Bag（大背包）)	Loading modworldgenmain.lua	
+[00:00:13]: Mod: workshop-2574469496 (A Big Bag（大背包）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:13]: Mod: workshop-2574469496 (A Big Bag（大背包）)	Loading modmain.lua	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	bigbag	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	redbigbag	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	bluebigbag	
+[00:00:13]: Warning: function AddRecipe in modmain is deprecated, please use AddRecipe2. Recipe name:	nicebigbag	
+[00:00:13]: modimport: ../mods/workshop-2574469496/scripts/strings_bigbag.lua	
+[00:00:13]: modimport: ../mods/workshop-2574469496/scripts/bigbag_rpc.lua	
+[00:00:13]: modimport: ../mods/workshop-2574469496/scripts/bigbag_hook.lua	
+[00:00:13]: modimport: ../mods/workshop-2574469496/scripts/bigbag_ui.lua	
+[00:00:13]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:13]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:13]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:13]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1905387692	
+[00:00:13]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2032685784	
+[00:00:13]: ModIndex:GetModsToLoad inserting moddir, 	workshop-347079953	
+[00:00:13]: ModIndex:GetModsToLoad inserting moddir, 	workshop-350811795	
+[00:00:13]: ModIndex:GetModsToLoad inserting moddir, 	workshop-356420397	
+[00:00:13]: ModIndex:GetModsToLoad inserting moddir, 	workshop-374550642	
+[00:00:13]: ModIndex:GetModsToLoad inserting moddir, 	workshop-501385076	
+[00:00:13]: ModIndex:GetModsToLoad inserting moddir, 	workshop-676503184	
+[00:00:13]: ModIndex:GetModsToLoad inserting moddir, 	workshop-684098549	
+[00:00:13]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2963262385	
+[00:00:13]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2574469496	
+[00:00:13]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:13]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-620716967	
+[00:00:13]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-623749604	
+[00:00:13]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2506863549	
+[00:00:13]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1694540893	
+[00:00:13]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2694393579	
+[00:00:13]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2119742489	
+[00:00:13]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-375859599	
+[00:00:14]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:14]: LOADING LUA SUCCESS
+[00:00:14]: Registering Server mod namespace "sisters"
+[00:00:14]: Registering Server mod namespace "food item"
+[00:00:14]: Registering Server mod namespace "workshop-378160973"
+[00:00:14]: Registering Server mod namespace "ganyu"
+[00:00:14]: Registering Server mod namespace "fasttravel"
+[00:00:14]: Registering Server mod namespace "bigbag"
+[00:00:14]: Registering Server mod namespace "huli_rpc"
+[00:00:14]: PlayerDeaths could not load morgue	
+[00:00:14]: PlayerHistory could not load player_history	
+[00:00:14]: ServerPreferences could not load server_preferences	
+[00:00:14]: ConsoleScreenSettings could not load consolescreen	
+[00:00:14]: bloom_enabled	true	
+[00:00:14]: OnFilesLoaded()	
+[00:00:14]: OnUpdatePurchaseStateComplete	
+[00:00:14]: SUCCESS: Loaded modoverrides.lua	
+[00:00:14]: Found a level data override file with these contents:	
+[00:00:14]: 	K: 	background_node_range	 V: 	table: 0000000020E3D200	
+[00:00:14]: 		K: 	1	 V: 	0	
+[00:00:14]: 		K: 	2	 V: 	1	
+[00:00:14]: 	K: 	desc	 V: 	探查洞穴…… 一起！	
+[00:00:14]: 	K: 	hideminimap	 V: 	false	
+[00:00:14]: 	K: 	id	 V: 	DST_CAVE	
+[00:00:14]: 	K: 	location	 V: 	cave	
+[00:00:14]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:14]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:14]: 	K: 	name	 V: 	洞穴	
+[00:00:14]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:00:14]: 	K: 	override_level_string	 V: 	false	
+[00:00:14]: 	K: 	overrides	 V: 	table: 0000000020E3D2F0	
+[00:00:14]: 		K: 	atriumgate	 V: 	default	
+[00:00:14]: 		K: 	banana	 V: 	default	
+[00:00:14]: 		K: 	basicresource_regrowth	 V: 	none	
+[00:00:14]: 		K: 	bats	 V: 	default	
+[00:00:14]: 		K: 	bats_setting	 V: 	default	
+[00:00:14]: 		K: 	beefaloheat	 V: 	default	
+[00:00:14]: 		K: 	berrybush	 V: 	default	
+[00:00:14]: 		K: 	boons	 V: 	default	
+[00:00:14]: 		K: 	branching	 V: 	default	
+[00:00:14]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:14]: 		K: 	bunnymen	 V: 	default	
+[00:00:14]: 		K: 	bunnymen_setting	 V: 	default	
+[00:00:14]: 		K: 	cave_ponds	 V: 	default	
+[00:00:14]: 		K: 	cave_spiders	 V: 	default	
+[00:00:14]: 		K: 	cavelight	 V: 	default	
+[00:00:14]: 		K: 	chess	 V: 	default	
+[00:00:14]: 		K: 	crow_carnival	 V: 	default	
+[00:00:14]: 		K: 	darkness	 V: 	default	
+[00:00:14]: 		K: 	day	 V: 	default	
+[00:00:14]: 		K: 	daywalker	 V: 	default	
+[00:00:14]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:14]: 		K: 	dustmoths	 V: 	default	
+[00:00:14]: 		K: 	earthquakes	 V: 	default	
+[00:00:14]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:14]: 		K: 	fern	 V: 	default	
+[00:00:14]: 		K: 	fissure	 V: 	default	
+[00:00:14]: 		K: 	flint	 V: 	default	
+[00:00:14]: 		K: 	flower_cave	 V: 	default	
+[00:00:14]: 		K: 	flower_cave_regrowth	 V: 	default	
+[00:00:14]: 		K: 	fruitfly	 V: 	default	
+[00:00:14]: 		K: 	ghostenabled	 V: 	always	
+[00:00:14]: 		K: 	ghostsanitydrain	 V: 	always	
+[00:00:14]: 		K: 	grass	 V: 	default	
+[00:00:14]: 		K: 	grassgekkos	 V: 	default	
+[00:00:14]: 		K: 	hallowed_nights	 V: 	default	
+[00:00:14]: 		K: 	healthpenalty	 V: 	always	
+[00:00:14]: 		K: 	hunger	 V: 	default	
+[00:00:14]: 		K: 	krampus	 V: 	default	
+[00:00:14]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:00:14]: 		K: 	lessdamagetaken	 V: 	none	
+[00:00:14]: 		K: 	lichen	 V: 	default	
+[00:00:14]: 		K: 	liefs	 V: 	default	
+[00:00:14]: 		K: 	lightflier_flower_regrowth	 V: 	default	
+[00:00:14]: 		K: 	lightfliers	 V: 	default	
+[00:00:14]: 		K: 	loop	 V: 	default	
+[00:00:14]: 		K: 	marshbush	 V: 	default	
+[00:00:14]: 		K: 	merms	 V: 	default	
+[00:00:14]: 		K: 	molebats	 V: 	default	
+[00:00:14]: 		K: 	moles_setting	 V: 	default	
+[00:00:14]: 		K: 	monkey	 V: 	default	
+[00:00:14]: 		K: 	monkey_setting	 V: 	default	
+[00:00:14]: 		K: 	mushgnome	 V: 	default	
+[00:00:14]: 		K: 	mushroom	 V: 	default	
+[00:00:14]: 		K: 	mushtree	 V: 	default	
+[00:00:14]: 		K: 	mushtree_moon_regrowth	 V: 	default	
+[00:00:14]: 		K: 	mushtree_regrowth	 V: 	default	
+[00:00:14]: 		K: 	nightmarecreatures	 V: 	default	
+[00:00:14]: 		K: 	pigs_setting	 V: 	default	
+[00:00:14]: 		K: 	portalresurection	 V: 	none	
+[00:00:14]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:14]: 		K: 	reeds	 V: 	default	
+[00:00:14]: 		K: 	regrowth	 V: 	default	
+[00:00:14]: 		K: 	resettime	 V: 	default	
+[00:00:14]: 		K: 	roads	 V: 	never	
+[00:00:14]: 		K: 	rock	 V: 	default	
+[00:00:14]: 		K: 	rocky	 V: 	default	
+[00:00:14]: 		K: 	rocky_setting	 V: 	default	
+[00:00:14]: 		K: 	sapling	 V: 	default	
+[00:00:14]: 		K: 	season_start	 V: 	default	
+[00:00:14]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:14]: 		K: 	shadowcreatures	 V: 	default	
+[00:00:14]: 		K: 	slurper	 V: 	default	
+[00:00:14]: 		K: 	slurtles	 V: 	default	
+[00:00:14]: 		K: 	slurtles_setting	 V: 	default	
+[00:00:14]: 		K: 	snurtles	 V: 	default	
+[00:00:14]: 		K: 	spawnmode	 V: 	fixed	
+[00:00:14]: 		K: 	spawnprotection	 V: 	default	
+[00:00:14]: 		K: 	specialevent	 V: 	default	
+[00:00:14]: 		K: 	spider_dropper	 V: 	default	
+[00:00:14]: 		K: 	spider_hider	 V: 	default	
+[00:00:14]: 		K: 	spider_spitter	 V: 	default	
+[00:00:14]: 		K: 	spider_warriors	 V: 	default	
+[00:00:14]: 		K: 	spiderqueen	 V: 	default	
+[00:00:14]: 		K: 	spiders	 V: 	default	
+[00:00:14]: 		K: 	spiders_setting	 V: 	default	
+[00:00:14]: 		K: 	start_location	 V: 	caves	
+[00:00:14]: 		K: 	task_set	 V: 	cave_default	
+[00:00:14]: 		K: 	temperaturedamage	 V: 	default	
+[00:00:14]: 		K: 	tentacles	 V: 	default	
+[00:00:14]: 		K: 	toadstool	 V: 	default	
+[00:00:14]: 		K: 	touchstone	 V: 	default	
+[00:00:14]: 		K: 	trees	 V: 	default	
+[00:00:14]: 		K: 	weather	 V: 	default	
+[00:00:14]: 		K: 	winters_feast	 V: 	default	
+[00:00:14]: 		K: 	world_size	 V: 	default	
+[00:00:14]: 		K: 	wormattacks	 V: 	default	
+[00:00:14]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:00:14]: 		K: 	wormlights	 V: 	default	
+[00:00:14]: 		K: 	worms	 V: 	default	
+[00:00:14]: 		K: 	year_of_the_beefalo	 V: 	default	
+[00:00:14]: 		K: 	year_of_the_bunnyman	 V: 	default	
+[00:00:14]: 		K: 	year_of_the_carrat	 V: 	default	
+[00:00:14]: 		K: 	year_of_the_catcoon	 V: 	default	
+[00:00:14]: 		K: 	year_of_the_gobbler	 V: 	default	
+[00:00:14]: 		K: 	year_of_the_pig	 V: 	default	
+[00:00:14]: 		K: 	year_of_the_varg	 V: 	default	
+[00:00:14]: 	K: 	required_prefabs	 V: 	table: 0000000020E3DD90	
+[00:00:14]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:14]: 	K: 	settings_desc	 V: 	探查洞穴…… 一起！	
+[00:00:14]: 	K: 	settings_id	 V: 	DST_CAVE	
+[00:00:14]: 	K: 	settings_name	 V: 	洞穴	
+[00:00:14]: 	K: 	substitutes	 V: 	table: 0000000020E3DE80	
+[00:00:14]: 	K: 	version	 V: 	4	
+[00:00:14]: 	K: 	worldgen_desc	 V: 	探查洞穴…… 一起！	
+[00:00:14]: 	K: 	worldgen_id	 V: 	DST_CAVE	
+[00:00:14]: 	K: 	worldgen_name	 V: 	洞穴	
+[00:00:14]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:14]: Overwriting savedata with level data file.	
+[00:00:14]: Not applying world gen overrides.	
+[00:00:14]: [IPC] Signal 'DST_Secondary_WorldGen' opened  #0000000000000768
+[00:00:14]: [IPC] Sending signal... #0000000000000768
+[00:00:14]: WorldSim::SimThread::SimThread()
+[00:00:14]: ABOUT TO INSTALL STACKTRACE
+[00:00:14]: DoLuaFile scripts/stacktrace.lua
+[00:00:14]: DoLuaFile loading buffer scripts/stacktrace.lua
+[00:00:14]: INSTALLED STACKTRACE
+[00:00:14]: WorldSim::SimThread::SimThread() complete
+[00:00:14]: THREAD - started 'WorldSim' (63104)
+[00:00:14]: WorldSim::SimThread::Main()
+[00:00:14]: DoLuaFile scripts/worldgen_main.lua
+[00:00:14]: DoLuaFile loading buffer scripts/worldgen_main.lua
+[00:00:14]: Check for write access: TRUE
+[00:00:14]: Check for read access: TRUE
+[00:00:14]: Available disk space for save files: 33159 MB
+[00:00:14]: ModIndex: Load sequence finished successfully.	
+[00:00:14]: Reset() returning
+[00:00:14]: DLC enabled : 	false	
+[00:00:14]:   taskgrouplist:	default	Together	
+[00:00:14]:   taskgrouplist:	classic	Classic	
+[00:00:14]:   taskgrouplist:	cave_default	Underground	
+[00:00:14]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:14]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:14]: ModIndex:GetModsToLoad inserting modname, 	workshop-374550642	
+[00:00:14]: ModIndex:GetModsToLoad inserting modname, 	workshop-2119742489	
+[00:00:14]: ModIndex:GetModsToLoad inserting modname, 	workshop-347079953	
+[00:00:14]: ModIndex:GetModsToLoad inserting modname, 	workshop-2032685784	
+[00:00:14]: ModIndex:GetModsToLoad inserting modname, 	workshop-676503184	
+[00:00:14]: ModIndex:GetModsToLoad inserting modname, 	workshop-501385076	
+[00:00:14]: ModIndex:GetModsToLoad inserting modname, 	workshop-1694540893	
+[00:00:14]: ModIndex:GetModsToLoad inserting modname, 	workshop-2694393579	
+[00:00:14]: ModIndex:GetModsToLoad inserting modname, 	workshop-356420397	
+[00:00:14]: ModIndex:GetModsToLoad inserting modname, 	workshop-684098549	
+[00:00:14]: ModIndex:GetModsToLoad inserting modname, 	workshop-2574469496	
+[00:00:14]: ModIndex:GetModsToLoad inserting modname, 	workshop-1905387692	
+[00:00:14]: ModIndex:GetModsToLoad inserting modname, 	workshop-378160973	
+[00:00:14]: ModIndex:GetModsToLoad inserting modname, 	workshop-620716967	
+[00:00:14]: ModIndex:GetModsToLoad inserting modname, 	workshop-350811795	
+[00:00:14]: ModIndex:GetModsToLoad inserting modname, 	workshop-2506863549	
+[00:00:14]: ModIndex:GetModsToLoad inserting modname, 	workshop-623749604	
+[00:00:14]: ModIndex:GetModsToLoad inserting modname, 	workshop-2963262385	
+[00:00:14]: ModIndex:GetModsToLoad inserting modname, 	workshop-375859599	
+[00:00:14]: Loading mod: workshop-374550642 (Increased Stack size) Version:1.62	
+[00:00:14]: Loading mod: workshop-2119742489 (Fast Travel (GUI)) Version:2.21	
+[00:00:14]: Loading mod: workshop-347079953 (Display food values) Version:1.61	
+[00:00:14]: Loading mod: workshop-2032685784 (Extra Equip Slots) Version:1.8.2	
+[00:00:14]: Loading mod: workshop-676503184 (Deadpool) Version:1	
+[00:00:14]: Loading mod: workshop-501385076 (Quick Pick) Version:1.4.0	
+[00:00:14]: Loading mod: workshop-1694540893 (大狐狸(Millennium Fox)) Version:2.5.2.0	
+[00:00:14]: Loading mod: workshop-2694393579 (Ganyu) Version:1.1	
+[00:00:14]: Loading mod: workshop-356420397 (No More Respawn Penalty) Version:1.3	
+[00:00:14]: Loading mod: workshop-684098549 (Remilia Scarlet) Version:2.1	
+[00:00:14]: Loading mod: workshop-2574469496 (A Big Bag（大背包）) Version:2.2.9	
+[00:00:14]: Loading mod: workshop-1905387692 (Warfarin: The Lonesome) Version:6.8.2362	
+[00:00:14]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.4	
+[00:00:14]: Loading mod: workshop-620716967 (Flandre Scarlet) Version:1.3.0	
+[00:00:14]: Loading mod: workshop-350811795 (Soulmates) Version:1.6	
+[00:00:14]: Loading mod: workshop-2506863549 (御坂妹妹) Version:0.2.3	
+[00:00:14]: Loading mod: workshop-623749604 (Storeroom) Version:2.6a	
+[00:00:14]: Loading mod: workshop-2963262385 (镰刀[Re-Fixed]) Version:2.43	
+[00:00:14]: Loading mod: workshop-375859599 (Health Info) Version:2.2.03	
+[00:00:14]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	Loading modworldgenmain.lua	
+[00:00:14]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:14]: Mod: workshop-2032685784 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:14]: Mod: workshop-2032685784 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:14]: Mod: workshop-347079953 (Display food values)	Loading modworldgenmain.lua	
+[00:00:14]: Mod: workshop-347079953 (Display food values)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:14]: Mod: workshop-2119742489 (Fast Travel (GUI))	Loading modworldgenmain.lua	
+[00:00:14]: Mod: workshop-2119742489 (Fast Travel (GUI))	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:14]: Mod: workshop-375859599 (Health Info)	Loading modworldgenmain.lua	
+[00:00:14]: Mod: workshop-375859599 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:14]: Mod: workshop-374550642 (Increased Stack size)	Loading modworldgenmain.lua	
+[00:00:14]: Mod: workshop-374550642 (Increased Stack size)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:14]: Mod: workshop-2963262385 (镰刀[Re-Fixed])	Loading modworldgenmain.lua	
+[00:00:14]: Mod: workshop-2963262385 (镰刀[Re-Fixed])	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:14]: Mod: workshop-2506863549 (御坂妹妹)	Loading modworldgenmain.lua	
+[00:00:14]: Mod: workshop-2506863549 (御坂妹妹)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:14]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	Loading modworldgenmain.lua	
+[00:00:14]: modimport: ../mods/workshop-1694540893/tileadder.lua	
+[00:00:14]: modimport: ../mods/workshop-1694540893/tiledescription.lua	
+[00:00:14]: 开始添加 Tile	
+[00:00:14]: 33	is reserved, incrementing...	
+[00:00:14]: 34	is reserved, incrementing...	
+[00:00:14]: 35	is reserved, incrementing...	
+[00:00:14]: 36	is reserved, incrementing...	
+[00:00:14]: 37	is reserved, incrementing...	
+[00:00:14]: 38	is reserved, incrementing...	
+[00:00:14]: 39	is reserved, incrementing...	
+[00:00:14]: lowest founded value:	40	
+[00:00:14]: tile	orient	added!	
+[00:00:14]: 33	is reserved, incrementing...	
+[00:00:14]: 34	is reserved, incrementing...	
+[00:00:14]: 35	is reserved, incrementing...	
+[00:00:14]: 36	is reserved, incrementing...	
+[00:00:14]: 37	is reserved, incrementing...	
+[00:00:14]: 38	is reserved, incrementing...	
+[00:00:14]: 39	is reserved, incrementing...	
+[00:00:14]: 40	is reserved, incrementing...	
+[00:00:14]: 41	is reserved, incrementing...	
+[00:00:14]: 42	is reserved, incrementing...	
+[00:00:14]: 43	is reserved, incrementing...	
+[00:00:14]: 44	is reserved, incrementing...	
+[00:00:14]: 45	is reserved, incrementing...	
+[00:00:14]: 46	is reserved, incrementing...	
+[00:00:14]: 47	is reserved, incrementing...	
+[00:00:14]: lowest founded value:	48	
+[00:00:14]: tile	flamerose	added!	
+[00:00:14]: 33	is reserved, incrementing...	
+[00:00:14]: 34	is reserved, incrementing...	
+[00:00:14]: 35	is reserved, incrementing...	
+[00:00:14]: 36	is reserved, incrementing...	
+[00:00:14]: 37	is reserved, incrementing...	
+[00:00:14]: 38	is reserved, incrementing...	
+[00:00:14]: 39	is reserved, incrementing...	
+[00:00:14]: 40	is reserved, incrementing...	
+[00:00:14]: 41	is reserved, incrementing...	
+[00:00:14]: 42	is reserved, incrementing...	
+[00:00:14]: 43	is reserved, incrementing...	
+[00:00:14]: 44	is reserved, incrementing...	
+[00:00:14]: 45	is reserved, incrementing...	
+[00:00:14]: 46	is reserved, incrementing...	
+[00:00:14]: 47	is reserved, incrementing...	
+[00:00:14]: 48	is reserved, incrementing...	
+[00:00:14]: lowest founded value:	49	
+[00:00:14]: tile	jade	added!	
+[00:00:14]: 33	is reserved, incrementing...	
+[00:00:14]: 34	is reserved, incrementing...	
+[00:00:14]: 35	is reserved, incrementing...	
+[00:00:14]: 36	is reserved, incrementing...	
+[00:00:14]: 37	is reserved, incrementing...	
+[00:00:14]: 38	is reserved, incrementing...	
+[00:00:14]: 39	is reserved, incrementing...	
+[00:00:14]: 40	is reserved, incrementing...	
+[00:00:14]: 41	is reserved, incrementing...	
+[00:00:14]: 42	is reserved, incrementing...	
+[00:00:14]: 43	is reserved, incrementing...	
+[00:00:14]: 44	is reserved, incrementing...	
+[00:00:14]: 45	is reserved, incrementing...	
+[00:00:14]: 46	is reserved, incrementing...	
+[00:00:14]: 47	is reserved, incrementing...	
+[00:00:14]: 48	is reserved, incrementing...	
+[00:00:14]: 49	is reserved, incrementing...	
+[00:00:14]: lowest founded value:	50	
+[00:00:14]: tile	asia	added!	
+[00:00:14]: 33	is reserved, incrementing...	
+[00:00:14]: 34	is reserved, incrementing...	
+[00:00:14]: 35	is reserved, incrementing...	
+[00:00:14]: 36	is reserved, incrementing...	
+[00:00:14]: 37	is reserved, incrementing...	
+[00:00:14]: 38	is reserved, incrementing...	
+[00:00:14]: 39	is reserved, incrementing...	
+[00:00:14]: 40	is reserved, incrementing...	
+[00:00:14]: 41	is reserved, incrementing...	
+[00:00:14]: 42	is reserved, incrementing...	
+[00:00:14]: 43	is reserved, incrementing...	
+[00:00:14]: 44	is reserved, incrementing...	
+[00:00:14]: 45	is reserved, incrementing...	
+[00:00:14]: 46	is reserved, incrementing...	
+[00:00:14]: 47	is reserved, incrementing...	
+[00:00:14]: 48	is reserved, incrementing...	
+[00:00:14]: 49	is reserved, incrementing...	
+[00:00:14]: 50	is reserved, incrementing...	
+[00:00:14]: lowest founded value:	51	
+[00:00:14]: tile	marble	added!	
+[00:00:14]: Mod: workshop-623749604 (Storeroom)	Loading modworldgenmain.lua	
+[00:00:14]: Mod: workshop-623749604 (Storeroom)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:14]: Mod: workshop-350811795 (Soulmates)	Loading modworldgenmain.lua	
+[00:00:14]: Mod: workshop-350811795 (Soulmates)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:14]: Mod: workshop-684098549 (Remilia Scarlet)	Loading modworldgenmain.lua	
+[00:00:14]: Mod: workshop-684098549 (Remilia Scarlet)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:14]: Mod: workshop-501385076 (Quick Pick)	Loading modworldgenmain.lua	
+[00:00:14]: Mod: workshop-501385076 (Quick Pick)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:14]: Mod: workshop-356420397 (No More Respawn Penalty)	Loading modworldgenmain.lua	
+[00:00:14]: Mod: workshop-356420397 (No More Respawn Penalty)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:14]: Mod: workshop-2694393579 (Ganyu)	Loading modworldgenmain.lua	
+[00:00:14]: Mod: workshop-2694393579 (Ganyu)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:14]: Mod: workshop-620716967 (Flandre Scarlet)	Loading modworldgenmain.lua	
+[00:00:14]: Mod: workshop-620716967 (Flandre Scarlet)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:14]: Mod: workshop-676503184 (Deadpool)	Loading modworldgenmain.lua	
+[00:00:14]: Mod: workshop-676503184 (Deadpool)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:14]: Mod: workshop-2574469496 (A Big Bag（大背包）)	Loading modworldgenmain.lua	
+[00:00:14]: Mod: workshop-2574469496 (A Big Bag（大背包）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:14]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:14]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:14]: running worldgen_main.lua
+	
+[00:00:14]: SEED = 	1684140578	
+[00:00:14]: Generating world with these parameters:	
+[00:00:14]: level_type	SURVIVAL	
+[00:00:14]: level_data:	
+[00:00:14]: 	K: 	background_node_range	 V: 	table: 0000000017061B90	
+[00:00:14]: 		K: 	1	 V: 	0	
+[00:00:14]: 		K: 	2	 V: 	1	
+[00:00:14]: 	K: 	desc	 V: 	探查洞穴…… 一起！	
+[00:00:14]: 	K: 	hideminimap	 V: 	false	
+[00:00:14]: 	K: 	id	 V: 	DST_CAVE	
+[00:00:14]: 	K: 	location	 V: 	cave	
+[00:00:14]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:14]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:14]: 	K: 	name	 V: 	洞穴	
+[00:00:14]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:00:14]: 	K: 	override_level_string	 V: 	false	
+[00:00:14]: 	K: 	overrides	 V: 	table: 0000000017063260	
+[00:00:14]: 		K: 	atriumgate	 V: 	default	
+[00:00:14]: 		K: 	banana	 V: 	default	
+[00:00:14]: 		K: 	basicresource_regrowth	 V: 	none	
+[00:00:14]: 		K: 	bats	 V: 	default	
+[00:00:14]: 		K: 	bats_setting	 V: 	default	
+[00:00:14]: 		K: 	beefaloheat	 V: 	default	
+[00:00:14]: 		K: 	berrybush	 V: 	default	
+[00:00:14]: 		K: 	boons	 V: 	default	
+[00:00:14]: 		K: 	branching	 V: 	default	
+[00:00:14]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:14]: 		K: 	bunnymen	 V: 	default	
+[00:00:14]: 		K: 	bunnymen_setting	 V: 	default	
+[00:00:14]: 		K: 	cave_ponds	 V: 	default	
+[00:00:14]: 		K: 	cave_spiders	 V: 	default	
+[00:00:14]: 		K: 	cavelight	 V: 	default	
+[00:00:14]: 		K: 	chess	 V: 	default	
+[00:00:14]: 		K: 	crow_carnival	 V: 	default	
+[00:00:14]: 		K: 	darkness	 V: 	default	
+[00:00:14]: 		K: 	day	 V: 	default	
+[00:00:14]: 		K: 	daywalker	 V: 	default	
+[00:00:14]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:14]: 		K: 	dustmoths	 V: 	default	
+[00:00:14]: 		K: 	earthquakes	 V: 	default	
+[00:00:14]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:14]: 		K: 	fern	 V: 	default	
+[00:00:14]: 		K: 	fissure	 V: 	default	
+[00:00:14]: 		K: 	flint	 V: 	default	
+[00:00:14]: 		K: 	flower_cave	 V: 	default	
+[00:00:14]: 		K: 	flower_cave_regrowth	 V: 	default	
+[00:00:14]: 		K: 	fruitfly	 V: 	default	
+[00:00:14]: 		K: 	ghostenabled	 V: 	always	
+[00:00:14]: 		K: 	ghostsanitydrain	 V: 	always	
+[00:00:14]: 		K: 	grass	 V: 	default	
+[00:00:14]: 		K: 	grassgekkos	 V: 	default	
+[00:00:14]: 		K: 	hallowed_nights	 V: 	default	
+[00:00:14]: 		K: 	healthpenalty	 V: 	always	
+[00:00:14]: 		K: 	hunger	 V: 	default	
+[00:00:14]: 		K: 	krampus	 V: 	default	
+[00:00:14]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:00:14]: 		K: 	lessdamagetaken	 V: 	none	
+[00:00:14]: 		K: 	lichen	 V: 	default	
+[00:00:14]: 		K: 	liefs	 V: 	default	
+[00:00:14]: 		K: 	lightflier_flower_regrowth	 V: 	default	
+[00:00:14]: 		K: 	lightfliers	 V: 	default	
+[00:00:14]: 		K: 	loop	 V: 	default	
+[00:00:14]: 		K: 	marshbush	 V: 	default	
+[00:00:14]: 		K: 	merms	 V: 	default	
+[00:00:14]: 		K: 	molebats	 V: 	default	
+[00:00:14]: 		K: 	moles_setting	 V: 	default	
+[00:00:14]: 		K: 	monkey	 V: 	default	
+[00:00:14]: 		K: 	monkey_setting	 V: 	default	
+[00:00:14]: 		K: 	mushgnome	 V: 	default	
+[00:00:14]: 		K: 	mushroom	 V: 	default	
+[00:00:14]: 		K: 	mushtree	 V: 	default	
+[00:00:14]: 		K: 	mushtree_moon_regrowth	 V: 	default	
+[00:00:14]: 		K: 	mushtree_regrowth	 V: 	default	
+[00:00:14]: 		K: 	nightmarecreatures	 V: 	default	
+[00:00:14]: 		K: 	pigs_setting	 V: 	default	
+[00:00:14]: 		K: 	portalresurection	 V: 	none	
+[00:00:14]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:14]: 		K: 	reeds	 V: 	default	
+[00:00:14]: 		K: 	regrowth	 V: 	default	
+[00:00:14]: 		K: 	resettime	 V: 	default	
+[00:00:14]: 		K: 	roads	 V: 	never	
+[00:00:14]: 		K: 	rock	 V: 	default	
+[00:00:14]: 		K: 	rocky	 V: 	default	
+[00:00:14]: 		K: 	rocky_setting	 V: 	default	
+[00:00:14]: 		K: 	sapling	 V: 	default	
+[00:00:14]: 		K: 	season_start	 V: 	default	
+[00:00:14]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:14]: 		K: 	shadowcreatures	 V: 	default	
+[00:00:14]: 		K: 	slurper	 V: 	default	
+[00:00:14]: 		K: 	slurtles	 V: 	default	
+[00:00:14]: 		K: 	slurtles_setting	 V: 	default	
+[00:00:14]: 		K: 	snurtles	 V: 	default	
+[00:00:14]: 		K: 	spawnmode	 V: 	fixed	
+[00:00:14]: 		K: 	spawnprotection	 V: 	default	
+[00:00:14]: 		K: 	specialevent	 V: 	default	
+[00:00:14]: 		K: 	spider_dropper	 V: 	default	
+[00:00:14]: 		K: 	spider_hider	 V: 	default	
+[00:00:14]: 		K: 	spider_spitter	 V: 	default	
+[00:00:14]: 		K: 	spider_warriors	 V: 	default	
+[00:00:14]: 		K: 	spiderqueen	 V: 	default	
+[00:00:14]: 		K: 	spiders	 V: 	default	
+[00:00:14]: 		K: 	spiders_setting	 V: 	default	
+[00:00:14]: 		K: 	start_location	 V: 	caves	
+[00:00:14]: 		K: 	task_set	 V: 	cave_default	
+[00:00:14]: 		K: 	temperaturedamage	 V: 	default	
+[00:00:14]: 		K: 	tentacles	 V: 	default	
+[00:00:14]: 		K: 	toadstool	 V: 	default	
+[00:00:14]: 		K: 	touchstone	 V: 	default	
+[00:00:14]: 		K: 	trees	 V: 	default	
+[00:00:14]: 		K: 	weather	 V: 	default	
+[00:00:14]: 		K: 	winters_feast	 V: 	default	
+[00:00:14]: 		K: 	world_size	 V: 	default	
+[00:00:14]: 		K: 	wormattacks	 V: 	default	
+[00:00:14]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:00:14]: 		K: 	wormlights	 V: 	default	
+[00:00:14]: 		K: 	worms	 V: 	default	
+[00:00:14]: 		K: 	year_of_the_beefalo	 V: 	default	
+[00:00:14]: 		K: 	year_of_the_bunnyman	 V: 	default	
+[00:00:14]: 		K: 	year_of_the_carrat	 V: 	default	
+[00:00:14]: 		K: 	year_of_the_catcoon	 V: 	default	
+[00:00:14]: 		K: 	year_of_the_gobbler	 V: 	default	
+[00:00:14]: 		K: 	year_of_the_pig	 V: 	default	
+[00:00:14]: 		K: 	year_of_the_varg	 V: 	default	
+[00:00:14]: 	K: 	required_prefabs	 V: 	table: 00000000170621D0	
+[00:00:14]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:14]: 	K: 	settings_desc	 V: 	探查洞穴…… 一起！	
+[00:00:14]: 	K: 	settings_id	 V: 	DST_CAVE	
+[00:00:14]: 	K: 	settings_name	 V: 	洞穴	
+[00:00:14]: 	K: 	substitutes	 V: 	table: 00000000170618C0	
+[00:00:14]: 	K: 	version	 V: 	4	
+[00:00:14]: 	K: 	worldgen_desc	 V: 	探查洞穴…… 一起！	
+[00:00:14]: 	K: 	worldgen_id	 V: 	DST_CAVE	
+[00:00:14]: 	K: 	worldgen_name	 V: 	洞穴	
+[00:00:14]: 
+#######
+#
+# Generating SURVIVAL Mode Level
+#
+#######
+	
+[00:00:14]: Prefab Swap Selection: regular grass	
+[00:00:14]: Prefab Swap Selection: twiggy trees	
+[00:00:14]: Prefab Swap Selection: regular berries	
+[00:00:14]: New size:	425	default	
+[00:00:14]: Creating story...	
+[00:00:14]: [Story Gen] Generate nodes. Starting at: 'MudWorld'	
+[00:00:14]: [Story Gen] RestrictNodesByKey	
+[00:00:14]: Finding valid start task...	
+[00:00:14]:    ...picked 	CaveExitTask2	
+[00:00:14]: Has start node	RabbitTown	
+[00:00:14]: Adding Background Nodes	
+[00:00:14]: [Story Gen] Adding Cove Nodes	
+[00:00:14]: Warning! Couldn't find a spot in MoreAltars for TwigsBoon	
+[00:00:14]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:14]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:14]: GenerateVoronoiMap [100]:
+[00:00:16]: ...Done.
+[00:00:16]: ... story created	
+[00:00:16]: Baking map...	425	
+[00:00:16]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:16]: [WorldSimActual::ConvertToTileMap]
+[00:00:16]: [ConvertToTileMap]
+[00:00:16]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:16]: [WorldSimActual::SeparateIslands]
+[00:00:16]: [SeparateIslands]
+[00:00:16]: [WorldSimActual::SeparateIslands] complete
+[00:00:16]: Map Baked!	
+[00:00:16]: [WorldSimActual::ForceConnectivity]
+[00:00:16]: [GenerateLandmasses]
+[00:00:16]: [GenerateLandmasses] islands: 14
+[00:00:16]: [MergeConnectedLandmasses] true
+[00:00:16]: [WorldSimActual::ForceConnectivity] complete
+[00:00:16]: Encoding...	
+[00:00:16]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:16]: Encoding... DONE	
+[00:00:16]: Checking Tags	
+[00:00:16]: Couldn't generate any points for maze. Aborting.
+[00:00:16]: Populating voronoi...	
+[00:00:16]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:16]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:16]: Warning! Could not find a spot for StraightWall in node Residential:4:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:16]: Warning! Could not find a spot for RabbitTown in node GreenForest:1:GreenMushRabbits	
+[00:00:16]: Warning! Could not find a spot for StraightWall in node Residential:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall in node Residential:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:16]: Warning! Could not find a spot for RabbitCity in node RabbitCity:5:RabbitCity	
+[00:00:16]: Warning! Could not find a spot for GrassySinkhole in node PleasantSinkhole:5:GrasslandSinkhole	
+[00:00:16]: Warning! Could not find a spot for StraightWall in node Residential:3:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:16]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:16]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:16]: Warning! Could not find a spot for TentaclePillar in node RabbitSpiderWar:0:SpiderIncursion	
+[00:00:16]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:16]: [ReplaceSingleNonLandTiles] Replaced 34 tiles.
+[00:00:16]: disconnected tiles...	525	
+[00:00:16]: TheLabyrinth:0:RuinedGuarden Didnt get enough points for all prefabs, got 19 need 20	
+[00:00:16]: Removing entity on IMPASSABLE		79.295	281.265	-632.82, 0, 175.06	
+[00:00:16]: Removing entity on IMPASSABLE	sanityrock	254.5	332.5	68, 0, 380	
+[00:00:16]: Removing entity on IMPASSABLE	sanityrock	254.5	333	68, 0, 382	
+[00:00:16]: Removing entity on IMPASSABLE	pandoraschest	308.5	457.5	284, 0, 880	
+[00:00:16]: Removing entity on IMPASSABLE	wall_stone_2	94.6075	295.6075	-571.57, 0, 232.43	
+[00:00:16]: Removing entity on IMPASSABLE	wall_stone_2	99.3575	298.39	-552.57, 0, 243.56	
+[00:00:16]: Checking Required Prefab atrium_gate has at least 1 instances (1 found).	
+[00:00:16]: Checking Required Prefab archive_orchestrina_main has at least 1 instances (1 found).	
+[00:00:16]: Checking Required Prefab multiplayer_portal has at least 1 instances (1 found).	
+[00:00:16]: Checking Required Prefab sacred_chest has at least 1 instances (1 found).	
+[00:00:16]: Checking Required Prefab minotaur_spawner has at least 1 instances (1 found).	
+[00:00:16]: Checking Required Prefab archive_lockbox_dispencer has at least 3 instances (3 found).	
+[00:00:16]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:16]: [ReplaceSingleNonLandTiles] Replaced 0 tiles.
+[00:00:16]: Done cave map gen!	
+[00:00:16]: Checking map...	
+[00:00:16]: Generation complete, injecting world entities.	
+[00:00:16]: Injected world entities.	
+[00:00:17]: WorldSim::SimThread::Main() complete
+[00:00:17]: Serializing world: session/7423382C25C39943/0000000002
+[00:00:17]: Klump load on boot started.	
+[00:00:17]: Klump files loaded: 	0	
+[00:00:17]: 	Unload FE	
+[00:00:17]: 	Unload FE done	
+[00:00:17]: Could not unload undefined prefab (fran_book_fx)
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	Registering prefabs	
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	  Registering prefab file: prefabs/warfarin	
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarin	
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	  Registering prefab file: prefabs/warfarin_none	
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarin_none	
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	  Registering prefab file: prefabs/warfarin_heart	
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarinheart	
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarinheart2	
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarinheart3	
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarinheart4	
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarinroll	
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	  Registering prefab file: prefabs/warfarindagger	
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarindagger	
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarindagger_marble	
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarindagger_night	
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarindagger_liar	
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	  Registering prefab file: prefabs/warfarin_effects	
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarin_puff	
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarin_snow	
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	  Registering prefab file: prefabs/shadowwarfarin	
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    shadowwarfarin	
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	  Registering prefab file: prefabs/warfarin_key	
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    warfarinkey	
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	  Registering prefab file: prefabs/hat_warfarinhood	
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	    hat_warfarinhood	
+[00:00:19]: Mod: workshop-1905387692 (Warfarin: The Lonesome)	  Registering default mod prefab	
+[00:00:19]: Mod: workshop-2032685784 (Extra Equip Slots)	Registering prefabs	
+[00:00:19]: Mod: workshop-2032685784 (Extra Equip Slots)	  Registering default mod prefab	
+[00:00:19]: Mod: workshop-347079953 (Display food values)	Registering prefabs	
+[00:00:19]: Mod: workshop-347079953 (Display food values)	  Registering default mod prefab	
+[00:00:19]: Mod: workshop-2119742489 (Fast Travel (GUI))	Registering prefabs	
+[00:00:19]: Mod: workshop-2119742489 (Fast Travel (GUI))	  Registering prefab file: prefabs/travelable_classified	
+[00:00:19]: Mod: workshop-2119742489 (Fast Travel (GUI))	    travelable_classified	
+[00:00:19]: Mod: workshop-2119742489 (Fast Travel (GUI))	  Registering default mod prefab	
+[00:00:19]: Mod: workshop-375859599 (Health Info)	Registering prefabs	
+[00:00:19]: Mod: workshop-375859599 (Health Info)	  Registering default mod prefab	
+[00:00:19]: Mod: workshop-374550642 (Increased Stack size)	Registering prefabs	
+[00:00:19]: Mod: workshop-374550642 (Increased Stack size)	  Registering default mod prefab	
+[00:00:19]: Mod: workshop-2963262385 (镰刀[Re-Fixed])	Registering prefabs	
+[00:00:19]: Mod: workshop-2963262385 (镰刀[Re-Fixed])	  Registering prefab file: prefabs/scythe	
+[00:00:19]: Mod: workshop-2963262385 (镰刀[Re-Fixed])	    scythe	
+[00:00:19]: Mod: workshop-2963262385 (镰刀[Re-Fixed])	  Registering prefab file: prefabs/scythe_golden	
+[00:00:19]: Mod: workshop-2963262385 (镰刀[Re-Fixed])	    scythe_golden	
+[00:00:19]: Mod: workshop-2963262385 (镰刀[Re-Fixed])	  Registering default mod prefab	
+[00:00:19]: Mod: workshop-2506863549 (御坂妹妹)	Registering prefabs	
+[00:00:19]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters_iron_sand_sword	
+[00:00:19]: Mod: workshop-2506863549 (御坂妹妹)	    iron_sand_sword	
+[00:00:19]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters	
+[00:00:19]: Mod: workshop-2506863549 (御坂妹妹)	    sisters	
+[00:00:19]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters_none	
+[00:00:19]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_none	
+[00:00:19]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters_night_vision_goggles	
+[00:00:19]: Mod: workshop-2506863549 (御坂妹妹)	    night_vision_goggles	
+[00:00:19]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters_gekota	
+[00:00:19]: Mod: workshop-2506863549 (御坂妹妹)	    gekota_amulet	
+[00:00:19]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters_computer_accessories	
+[00:00:19]: Mod: workshop-2506863549 (御坂妹妹)	    computer_accessories	
+[00:00:19]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters_storage_space_prefab	
+[00:00:19]: Mod: workshop-2506863549 (御坂妹妹)	    misaka_world_sisters_storage_space	
+[00:00:19]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters_chest_technology	
+[00:00:19]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_chest_technology	
+[00:00:19]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_chest_technology_placer	
+[00:00:19]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters_chest_time_accelerate	
+[00:00:19]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_chest_time_accelerate	
+[00:00:19]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_chest_time_accelerate_placer	
+[00:00:19]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters_chest_time_stop	
+[00:00:19]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_chest_time_stop	
+[00:00:19]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_chest_time_stop_placer	
+[00:00:19]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters_chest_big	
+[00:00:20]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_chest_big	
+[00:00:20]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_chest_big_placer	
+[00:00:20]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters_chest_safe	
+[00:00:20]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_chest_safe	
+[00:00:20]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_chest_safe_placer	
+[00:00:20]: Mod: workshop-2506863549 (御坂妹妹)	  Registering prefab file: prefabs/sisters_chest_compress	
+[00:00:20]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_chest_compress	
+[00:00:20]: Mod: workshop-2506863549 (御坂妹妹)	    sisters_chest_compress_placer	
+[00:00:20]: Mod: workshop-2506863549 (御坂妹妹)	  Registering default mod prefab	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	Registering prefabs	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/huli	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/huli_none	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli_none	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/gumifan	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    gumifan	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/skirt_x	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    skirt_x	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/foxmask	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    foxmask	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/foxmask_new	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    foxmask_new	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/huliclone	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huliclone	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/hulisoul	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    hulisoul	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/huli_gem	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huligem_sj	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huligem_qh	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huligem_hc	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huligem_jh	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huligem_gjqh	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huligem_xy	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huligem_bj	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/handfan	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    handfan	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/turfturf	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    turf_asia	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    turf_orient	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    turf_flamerose	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/gumipot	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    gumipot	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    gumipot_placer	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/firepit_ghost_fire	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    firepit_ghost_fire	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/firepit_chill_fire	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    firepit_chill_fire	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/firepit_ghost	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    firepit_ghost	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    firepit_ghost_placer	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/firepit_chill	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    firepit_chill	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    firepit_chill_placer	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/turf_marble	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    turf_marble	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/turf_jade	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    turf_jade	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/miho	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    miho	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/mihobell	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    mihobell	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/huli_fx	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli_spiritfx	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli_spirit_evilfx	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli_ground_firefx	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli_ringfx	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/xhl_cl	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    xhl_cl	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/icefox_fx	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    icefox_fx	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/huli_dango	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli_dango	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/xhl_cl_qp	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    xhl_cl_qp	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    xhl_cl_qp_db_build	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    xhl_cl_qp_db_build_placer	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/xhl_cl_qp_fx	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    xhl_cl_qp_fx	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/huli_fangzi	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli_fangzi	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli_fangzi_placer	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/huli_tingzi	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli_tingzi	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli_tingzi_placer	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/huli_rock_power	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli_rock_power	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/huli_rechargenpc	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    huli_rechargenpc	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/huli_wall	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    wall_asia	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    wall_asia_item	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    wall_asia_item_placer	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/mir	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    mir	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    mir2	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/miregg	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    miregg	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    miregg_cracked	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering prefab file: prefabs/huli_light_test	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	    大狐狸灯光	
+[00:00:20]: Mod: workshop-1694540893 (大狐狸(Millennium Fox))	  Registering default mod prefab	
+[00:00:21]: Mod: workshop-623749604 (Storeroom)	Registering prefabs	
+[00:00:21]: Mod: workshop-623749604 (Storeroom)	  Registering prefab file: prefabs/storeroom	
+[00:00:21]: Mod: workshop-623749604 (Storeroom)	    storeroom	
+[00:00:21]: Mod: workshop-623749604 (Storeroom)	    storeroom_placer	
+[00:00:21]: Mod: workshop-623749604 (Storeroom)	  Registering default mod prefab	
+[00:00:21]: Mod: workshop-350811795 (Soulmates)	Registering prefabs	
+[00:00:21]: Mod: workshop-350811795 (Soulmates)	  Registering prefab file: prefabs/bindingringprefabdef	
+[00:00:21]: Mod: workshop-350811795 (Soulmates)	    bindingring	
+[00:00:21]: Mod: workshop-350811795 (Soulmates)	  Registering default mod prefab	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	Registering prefabs	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	  Registering prefab file: prefabs/remilia	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	    remilia	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	  Registering prefab file: prefabs/bloodbags	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	    smallblood	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	    largeblood	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	    monsterblood	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	    plantblood	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	    humanblood	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	    smallblood_1	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	    smallblood_2	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	    smallblood_3	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	    smallblood_4	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	    largeblood_1	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	    largeblood_2	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	  Registering prefab file: prefabs/remiliaweapons	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	    gungnir	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	    gungnir1	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	    gungnir2	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	    gungnir3	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	    gungnir4	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	    gungnir5	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	    gungnir6	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	    gungnir7	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	  Registering prefab file: prefabs/gungnirfake	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	    gungnir_fake	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	  Registering prefab file: prefabs/remibat	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	    remibat	
+[00:00:21]: Mod: workshop-684098549 (Remilia Scarlet)	  Registering default mod prefab	
+[00:00:21]: Mod: workshop-501385076 (Quick Pick)	Registering prefabs	
+[00:00:21]: Mod: workshop-501385076 (Quick Pick)	  Registering default mod prefab	
+[00:00:21]: Mod: workshop-356420397 (No More Respawn Penalty)	Registering prefabs	
+[00:00:21]: Mod: workshop-356420397 (No More Respawn Penalty)	  Registering default mod prefab	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	Registering prefabs	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	  Registering prefab file: prefabs/ganyu	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	    ganyu	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	  Registering prefab file: prefabs/ganyu_fx	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	    frostflake_explode	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	    ice_ground	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	    iceshard	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	    cryo_pearl	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	  Registering prefab file: prefabs/ganyu_bfx	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	    ganyu_charge1	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	    ganyu_charge2	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	    frostflake	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	  Registering prefab file: prefabs/icelotus	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	    lotus_pre	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	    icelotus	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	  Registering prefab file: prefabs/amosbow	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	    amosbow	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	  Registering prefab file: prefabs/ganyu_arrow	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	    amosbow_arrow	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	    ganyu_arrow1	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	    ganyu_arrow2	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	  Registering prefab file: prefabs/icejade	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	    icejade	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	  Registering prefab file: prefabs/sandglass	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	    sandglass	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	    light	
+[00:00:21]: Mod: workshop-2694393579 (Ganyu)	  Registering default mod prefab	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	Registering prefabs	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	  Registering prefab file: prefabs/fran	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	    fran	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	  Registering prefab file: prefabs/bloodsword	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	    bloodsword	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	  Registering prefab file: prefabs/bloodswordx	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	    bloodswordx	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	  Registering prefab file: prefabs/bloodbags	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	    smallblood	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	    largeblood	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	    monsterblood	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	    plantblood	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	    humanblood	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	    smallblood_1	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	    smallblood_2	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	    smallblood_3	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	    smallblood_4	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	    largeblood_1	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	    largeblood_2	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	  Registering prefab file: prefabs/franjournal	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	    franjournal	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	  Registering prefab file: prefabs/fran_none	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	    fran_none	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	  Registering prefab file: prefabs/summonfran	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	    summonfran	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	  Registering prefab file: prefabs/clonefranspear	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	    clonefranspear	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	  Registering prefab file: prefabs/francard1	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	    francard1	
+[00:00:21]: Mod: workshop-620716967 (Flandre Scarlet)	  Registering default mod prefab	
+[00:00:21]: Could not preload undefined prefab (fran_book_fx)
+[00:00:21]: Mod: workshop-676503184 (Deadpool)	Registering prefabs	
+[00:00:21]: Mod: workshop-676503184 (Deadpool)	  Registering prefab file: prefabs/deadpool	
+[00:00:21]: Mod: workshop-676503184 (Deadpool)	    deadpool	
+[00:00:21]: Mod: workshop-676503184 (Deadpool)	  Registering prefab file: prefabs/deadpool_none	
+[00:00:21]: Mod: workshop-676503184 (Deadpool)	    deadpool_none	
+[00:00:21]: Mod: workshop-676503184 (Deadpool)	  Registering prefab file: prefabs/katanas	
+[00:00:21]: Mod: workshop-676503184 (Deadpool)	    katanas	
+[00:00:21]: Mod: workshop-676503184 (Deadpool)	  Registering prefab file: prefabs/dppda	
+[00:00:21]: Mod: workshop-676503184 (Deadpool)	    dppda	
+[00:00:21]: Mod: workshop-676503184 (Deadpool)	  Registering prefab file: prefabs/dpgun	
+[00:00:21]: Mod: workshop-676503184 (Deadpool)	    dpgun	
+[00:00:21]: Mod: workshop-676503184 (Deadpool)	  Registering prefab file: prefabs/dpclip	
+[00:00:21]: Mod: workshop-676503184 (Deadpool)	    dpclip	
+[00:00:21]: Mod: workshop-676503184 (Deadpool)	  Registering prefab file: prefabs/dpbomb	
+[00:00:21]: Mod: workshop-676503184 (Deadpool)	    dpbomb	
+[00:00:21]: Mod: workshop-676503184 (Deadpool)	  Registering default mod prefab	
+[00:00:21]: Mod: workshop-2574469496 (A Big Bag（大背包）)	Registering prefabs	
+[00:00:21]: Mod: workshop-2574469496 (A Big Bag（大背包）)	  Registering prefab file: prefabs/bigbag	
+[00:00:21]: Mod: workshop-2574469496 (A Big Bag（大背包）)	    bigbag	
+[00:00:21]: Mod: workshop-2574469496 (A Big Bag（大背包）)	  Registering prefab file: prefabs/gembigbag	
+[00:00:21]: Mod: workshop-2574469496 (A Big Bag（大背包）)	    bluebigbag	
+[00:00:21]: Mod: workshop-2574469496 (A Big Bag（大背包）)	    redbigbag	
+[00:00:21]: Mod: workshop-2574469496 (A Big Bag（大背包）)	  Registering prefab file: prefabs/nicebigbag	
+[00:00:21]: Mod: workshop-2574469496 (A Big Bag（大背包）)	    nicebigbag	
+[00:00:21]: Mod: workshop-2574469496 (A Big Bag（大背包）)	  Registering default mod prefab	
+[00:00:21]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:21]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:21]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:21]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:21]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:21]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:21]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:21]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:00:21]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:00:21]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:22]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:22]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:22]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:22]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:22]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:22]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:22]: 	LOAD BE	
+[00:00:32]: 	LOAD BE: done	
+[00:00:32]: Begin Session: 7423382C25C39943
+[00:00:32]: saving to server_temp/server_save	
+[00:00:32]: OVERRIDE: setting	healthpenalty	to	always	
+[00:00:32]: OVERRIDE: setting	lessdamagetaken	to	none	
+[00:00:32]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-1905387692/images/map_icons/warfarin.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-2506863549/images/map_icons/sisters.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-1694540893/images/map_icons/huli.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-1694540893/images/minimapicons/huliclone.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-1694540893/images/minimapicons/gumifan.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-1694540893/images/minimapicons/firepit_h.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-1694540893/images/minimapicons/firepit_c.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-1694540893/images/minimapicons/mihobell.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-1694540893/images/minimapicons/miho.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-1694540893/images/minimapicons/gumipot.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-1694540893/images/minimapicons/huli_fangzi.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-1694540893/images/minimapicons/huli_tingzi.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-1694540893/images/minimapicons/miregg.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-1694540893/images/minimapicons/mir.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-623749604/minimap/storeroom.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-684098549/images/inventoryimages/gungnir.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-684098549/images/inventoryimages/gungnir1.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-684098549/images/inventoryimages/gungnir2.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-684098549/images/inventoryimages/gungnir3.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-684098549/images/inventoryimages/gungnir4.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-684098549/images/inventoryimages/gungnir5.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-684098549/images/inventoryimages/gungnir6.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-684098549/images/inventoryimages/gungnir7.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-684098549/images/inventoryimages/gungnir_fake.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-684098549/images/map_icons/remilia.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-2694393579/images/map_icons/ganyu.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-620716967/images/map_icons/fran.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-620716967/images/fran.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-676503184/images/map_icons/deadpool.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-2574469496/minimap/bigbag.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
+[00:00:32]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
+[00:00:32]: map_edge	levels/tiles/map_edge.xml	
+[00:00:32]: map_edge	levels/tiles/map_edge.xml	
+[00:00:32]: map_edge	levels/tiles/map_edge.xml	
+[00:00:32]: map_edge	levels/tiles/map_edge.xml	
+[00:00:32]: map_edge	levels/tiles/map_edge.xml	
+[00:00:32]: Loading 26 new character(s)	
+[00:00:33]: Total 26 character(s) loaded	
+[00:00:37]: Loading Nav Grid	
+[00:00:37]: World generated on build 556225 with save version: 5.141, using seed: 1684140578	
+[00:00:37]: [Shard] Secondary shard is waiting for LUA...
+[00:00:37]: OVERRIDE: setting	ghostenabled	to	always	
+[00:00:37]: OVERRIDE: setting	basicresource_regrowth	to	none	
+[00:00:37]: OVERRIDE: setting	portalresurection	to	none	
+[00:00:37]: OVERRIDE: setting	spawnmode	to	fixed	
+[00:00:37]: OVERRIDE: setting	ghostsanitydrain	to	always	
+[00:00:38]: Can't find prefab archive_sound_area	
+[00:00:38]: SpawnSaveRecord [nil, archive_sound_area] FAILED	
+[00:00:38]: Can't find prefab archive_sound_area	
+[00:00:38]: SpawnSaveRecord [nil, archive_sound_area] FAILED	
+[00:00:38]: Can't find prefab archive_sound_area	
+[00:00:38]: SpawnSaveRecord [nil, archive_sound_area] FAILED	
+[00:00:39]: SWITCHING 	false	
+[00:00:40]: Reconstructing topology	
+[00:00:40]: 	...Sorting points	
+[00:00:40]: 	...Sorting edges	
+[00:00:40]: 	...Connecting nodes	
+[00:00:40]: 	...Validating connections	
+[00:00:40]: 	...Housekeeping	
+[00:00:40]: 	...Done!	
+[00:00:40]: 1 uploads added to server. From server_temp
+[00:00:40]: About to start a shard with these settings:
+[00:00:40]:   ShardName: Caves
+[00:00:40]:   ShardID: 3312960835
+[00:00:40]:   ShardRole: SECONDARY
+[00:00:40]:   MasterHost: 127.0.0.1
+[00:00:40]:   MasterBind: (null)
+[00:00:40]:   MasterPort: 10888
+[00:00:40]: [Shard] Connecting to master...
+[00:00:40]: Telling Client our new session identifier: 7423382C25C39943
+[00:00:40]: [Shard] Sending secondary shard information to master...
+[00:00:40]: Validating portal[1] <-> <nil>[1] (inactive)	
+[00:00:40]: Validating portal[2] <-> <nil>[2] (inactive)	
+[00:00:40]: Validating portal[3] <-> <nil>[3] (inactive)	
+[00:00:40]: Validating portal[4] <-> <nil>[4] (inactive)	
+[00:00:40]: Validating portal[5] <-> <nil>[5] (inactive)	
+[00:00:40]: Validating portal[6] <-> <nil>[6] (inactive)	
+[00:00:40]: Validating portal[7] <-> <nil>[7] (inactive)	
+[00:00:40]: Validating portal[8] <-> <nil>[8] (inactive)	
+[00:00:40]: Validating portal[9] <-> <nil>[9] (inactive)	
+[00:00:40]: Validating portal[10] <-> <nil>[10] (inactive)	
+[00:00:41]: Received MasterInfoPacket row KU_iNDU0Ete region ap-southeast-1
+[00:00:41]: Obtaining secondary shard IP from ap-southeast-1 lobby
+[00:00:42]: [Shard] secondary shard is now ready!
+[00:00:42]: World 1 is now connected	
+[00:00:42]: [SyncWorldSettings] Sending ResyncWorldSettings.	
+[00:00:42]: Validating portal[1] <-> 1[1] (active)	
+[00:00:42]: Validating portal[2] <-> 1[2] (active)	
+[00:00:42]: Validating portal[3] <-> 1[3] (active)	
+[00:00:42]: Validating portal[4] <-> 1[4] (active)	
+[00:00:42]: Validating portal[5] <-> 1[5] (active)	
+[00:00:42]: Validating portal[6] <-> 1[6] (active)	
+[00:00:42]: Validating portal[7] <-> 1[7] (active)	
+[00:00:42]: Validating portal[8] <-> 1[8] (active)	
+[00:00:42]: Validating portal[9] <-> 1[9] (active)	
+[00:00:42]: Validating portal[10] <-> 1[10] (active)	
+[00:00:42]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[00:00:42]: [SyncWorldSettings] applying temperaturedamage = default from master shard.	
+[00:00:42]: [SyncWorldSettings] applying spawnmode = fixed from master shard.	
+[00:00:42]: [SyncWorldSettings] applying lessdamagetaken = none from master shard.	
+[00:00:42]: [SyncWorldSettings] applying ghostenabled = always from master shard.	
+[00:00:42]: [SyncWorldSettings] applying shadowcreatures = default from master shard.	
+[00:00:42]: [SyncWorldSettings] applying resettime = default from master shard.	
+[00:00:42]: [SyncWorldSettings] applying krampus = default from master shard.	
+[00:00:42]: [SyncWorldSettings] applying ghostsanitydrain = always from master shard.	
+[00:00:42]: [SyncWorldSettings] applying healthpenalty = always from master shard.	
+[00:00:42]: [SyncWorldSettings] applying dropeverythingondespawn = default from master shard.	
+[00:00:42]: [SyncWorldSettings] applying darkness = default from master shard.	
+[00:00:42]: [SyncWorldSettings] applying portalresurection = none from master shard.	
+[00:00:42]: [SyncWorldSettings] applying brightmarecreatures = default from master shard.	
+[00:00:42]: [SyncWorldSettings] applying hunger = default from master shard.	
+[00:00:42]: [SyncWorldSettings] applying basicresource_regrowth = none from master shard.	
+[00:00:43]: [Shard] secondary shard LUA is now ready!
+[00:00:43]: [IPC] Signal 'DST_Secondary_Ready' opened  #0000000000000A1C
+[00:00:43]: [IPC] Sending signal... #0000000000000A1C
+[00:00:43]: Sim paused
+[00:01:43]: Sim unpaused
+[00:09:43]: ----------------- HEALTH INFO WARNING ------------------	
+[00:09:43]: Some objects are not supported by the mod.	
+[00:09:43]: Unknown objects: daywalker	
+[00:09:43]: You can enable these objects if you change the option "Unknown Objects".	
+[00:09:43]: See more info at http://steamcommunity.com/workshop/filedetails/discussion/375859599/343787283764426976/	
+[00:09:43]: --------------------------------------------------------	
+[00:09:44]: Available disk space for save files: 33148 MB
+[00:09:45]: Serializing world: session/7423382C25C39943/0000000003
+[00:17:45]: Available disk space for save files: 33135 MB
+[00:17:45]: Serializing world: session/7423382C25C39943/0000000004
+[00:25:45]: Available disk space for save files: 33122 MB
+[00:25:45]: Serializing world: session/7423382C25C39943/0000000005
+[00:30:10]: [200] Account Communication Success (6)
+[00:30:10]: Received (KU_iNDU0Ete) from TokenPurpose
+[00:33:46]: Available disk space for save files: 33110 MB
+[00:33:46]: Serializing world: session/7423382C25C39943/0000000006
+[00:41:46]: Available disk space for save files: 33094 MB
+[00:41:46]: Serializing world: session/7423382C25C39943/0000000007
+[00:49:46]: Available disk space for save files: 33080 MB
+[00:49:46]: Serializing world: session/7423382C25C39943/0000000008
+[00:49:46]: Truncating to snapshot #8...
+[00:49:46]:  - session/7423382C25C39943/0000000002
+[00:49:46]:    1 file(s) removed
+[00:57:47]: Available disk space for save files: 33072 MB
+[00:57:47]: Serializing world: session/7423382C25C39943/0000000009
+[00:57:47]: Truncating to snapshot #9...
+[00:57:47]:  - session/7423382C25C39943/0000000003
+[00:57:47]:    1 file(s) removed
+[01:00:11]: [200] Account Communication Success (6)
+[01:00:11]: Received (KU_iNDU0Ete) from TokenPurpose
+[01:05:47]: Available disk space for save files: 33063 MB
+[01:05:47]: Serializing world: session/7423382C25C39943/0000000010
+[01:05:47]: Truncating to snapshot #10...
+[01:05:47]:  - session/7423382C25C39943/0000000004
+[01:05:47]:    1 file(s) removed
+[01:13:47]: Available disk space for save files: 33053 MB
+[01:13:48]: Serializing world: session/7423382C25C39943/0000000011
+[01:13:48]: Truncating to snapshot #11...
+[01:13:48]:  - session/7423382C25C39943/0000000005
+[01:13:48]:    1 file(s) removed
+[01:21:48]: Available disk space for save files: 33045 MB
+[01:21:48]: Serializing world: session/7423382C25C39943/0000000012
+[01:21:48]: Truncating to snapshot #12...
+[01:21:48]:  - session/7423382C25C39943/0000000006
+[01:21:48]:    1 file(s) removed
+[01:29:48]: Available disk space for save files: 33036 MB
+[01:29:48]: Serializing world: session/7423382C25C39943/0000000013
+[01:29:48]: Truncating to snapshot #13...
+[01:29:48]:  - session/7423382C25C39943/0000000007
+[01:29:48]:    1 file(s) removed
+[01:30:10]: [200] Account Communication Success (6)
+[01:30:10]: Received (KU_iNDU0Ete) from TokenPurpose
+[01:37:49]: Available disk space for save files: 33027 MB
+[01:37:49]: Serializing world: session/7423382C25C39943/0000000014
+[01:37:49]: Truncating to snapshot #14...
+[01:37:49]:  - session/7423382C25C39943/0000000008
+[01:37:49]:    1 file(s) removed
+[01:45:49]: Available disk space for save files: 33018 MB
+[01:45:49]: Serializing world: session/7423382C25C39943/0000000015
+[01:45:49]: Truncating to snapshot #15...
+[01:45:49]:  - session/7423382C25C39943/0000000009
+[01:45:49]:    1 file(s) removed
+[01:53:49]: Available disk space for save files: 33003 MB
+[01:53:50]: Serializing world: session/7423382C25C39943/0000000016
+[01:53:50]: Truncating to snapshot #16...
+[01:53:50]:  - session/7423382C25C39943/0000000010
+[01:53:50]:    1 file(s) removed
+[02:00:10]: [200] Account Communication Success (6)
+[02:00:10]: Received (KU_iNDU0Ete) from TokenPurpose
+[02:01:50]: Available disk space for save files: 32988 MB
+[02:01:50]: Serializing world: session/7423382C25C39943/0000000017
+[02:01:50]: Truncating to snapshot #17...
+[02:01:50]:  - session/7423382C25C39943/0000000011
+[02:01:50]:    1 file(s) removed
+[02:09:50]: Available disk space for save files: 33020 MB
+[02:09:51]: Serializing world: session/7423382C25C39943/0000000018
+[02:09:51]: Truncating to snapshot #18...
+[02:09:51]:  - session/7423382C25C39943/0000000012
+[02:09:51]:    1 file(s) removed
+[02:17:51]: Available disk space for save files: 33018 MB
+[02:17:51]: Serializing world: session/7423382C25C39943/0000000019
+[02:17:51]: Truncating to snapshot #19...
+[02:17:51]:  - session/7423382C25C39943/0000000013
+[02:17:51]:    1 file(s) removed
+[02:25:51]: Available disk space for save files: 33009 MB
+[02:25:51]: Serializing world: session/7423382C25C39943/0000000020
+[02:25:51]: Truncating to snapshot #20...
+[02:25:51]:  - session/7423382C25C39943/0000000014
+[02:25:51]:    1 file(s) removed
+[02:26:47]: [Shard] We have been disconnected from the master. Waiting to reconnect...
+[02:26:47]: Sim paused
+[02:26:49]: [IPC] Received shutdown signal.
+[02:26:49]: Available disk space for save files: 33051 MB
+[02:26:49]: Serializing world: session/7423382C25C39943/0000000021
+[02:26:49]: Truncating to snapshot #21...
+[02:26:49]:  - session/7423382C25C39943/0000000015
+[02:26:49]:    1 file(s) removed
+[02:26:49]: [Shard] Stopping shard mode
+[02:26:49]: [Steam] SendUserDisconnect for ''
+[02:26:50]: Collecting garbage...
+[02:26:50]: lua_gc took 0.26 seconds
+[02:26:50]: ~ShardLuaProxy()
+[02:26:50]: ~cEventLeaderboardProxy()
+[02:26:50]: ~ItemServerLuaProxy()
+[02:26:50]: ~InventoryLuaProxy()
+[02:26:50]: ~NetworkLuaProxy()
+[02:26:50]: ~SimLuaProxy()
+[02:26:50]: lua_close took 0.33 seconds
+[02:26:50]: Could not unload undefined prefab (fran_book_fx)
+[02:26:50]: CurlRequestManager::ClientThread::Main() complete
+[02:26:50]: HttpClient2 discarded 0 callbacks.
+[02:26:51]: Shutting down

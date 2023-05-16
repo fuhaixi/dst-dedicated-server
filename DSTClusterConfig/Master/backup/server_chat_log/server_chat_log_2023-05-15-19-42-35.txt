@@ -1,0 +1,23 @@
+[00:01:04]: [Join Announcement] Zate
+[00:02:43]: [Join Announcement] 律化娜可露琪亚
+[00:30:35]: [Death Announcement] Zate 死于： 鱼人。她变成了可怕的鬼魂！
+[00:32:20]: [Join Announcement] gsz
+[00:34:50]: [Resurrect Announcement] Zate 复活自： 试金石.
+[00:53:56]: [Death Announcement] Zate 死于： 鱼人。她变成了可怕的鬼魂！
+[00:58:42]: [Resurrect Announcement] Zate 复活自： 试金石.
+[01:00:59]: [Skin Announcement] gsz webber_beard_magma
+[01:04:17]: [Skin Announcement] 律化娜可露琪亚 legs_warly_victorian
+[01:12:49]: [Skin Announcement] Zate body_wolfgang_wolfman
+[01:47:19]: [Death Announcement] 律化娜可露琪亚 死于： 皮弗娄牛。她变成了可怕的鬼魂！
+[01:48:24]: [Resurrect Announcement] 律化娜可露琪亚 复活自： 试金石.
+[01:56:58]: [Death Announcement] gsz 死于： 时间流逝。她变成了可怕的鬼魂！
+[01:59:48]: [Resurrect Announcement] gsz 复活自： 试金石.
+[02:17:39]: [Skin Announcement] 律化娜可露琪亚 hand_wickerbottom_victorian
+[02:18:16]: [Death Announcement] Zate 死于： 高脚鸟。她变成了可怕的鬼魂！
+[02:18:43]: [Resurrect Announcement] Zate 复活自： 试金石.
+[02:19:27]: [Death Announcement] Zate 死于： 高脚鸟。她变成了可怕的鬼魂！
+[02:21:48]: [Resurrect Announcement] Zate 复活自： 试金石.
+[02:23:58]: [Skin Announcement] gsz feet_webber_nature
+[02:24:36]: [Leave Announcement] gsz
+[02:26:43]: [Leave Announcement] 律化娜可露琪亚
+[02:26:46]: [Leave Announcement] Zate

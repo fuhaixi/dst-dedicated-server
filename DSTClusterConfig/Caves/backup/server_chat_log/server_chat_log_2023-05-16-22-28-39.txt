@@ -1,0 +1,14 @@
+[00:01:25]: [Join Announcement] Zate
+[00:03:58]: [Join Announcement] gsz
+[00:05:41]: [Join Announcement] 律化娜可露琪亚
+[00:11:41]: [Skin Announcement] Zate feet_sneakers_red_auburn
+[00:21:51]: [Skin Announcement] 律化娜可露琪亚 body_polo_orange_salmon
+[00:38:57]: [Skin Announcement] gsz body_buttons_grey_gainsboro
+[00:41:56]: [Announcement] <gsz>正在破坏<Zate>的<狐狸房子/1532>
+[00:42:06]: [Death Announcement] gsz 死于： 时间流逝。她变成了可怕的鬼魂！
+[00:42:52]: [Resurrect Announcement] gsz 复活自： Zate.
+[01:02:48]: [Death Announcement] 律化娜可露琪亚 死于： 蜂王。她变成了可怕的鬼魂！
+[01:03:33]: [Resurrect Announcement] 律化娜可露琪亚 复活自： Zate.
+[01:03:50]: [Death Announcement] gsz 死于： 时间流逝。她变成了可怕的鬼魂！
+[01:03:56]: [Resurrect Announcement] gsz 复活自： Zate.
+[01:09:04]: [Skin Announcement] Zate hand_workgloves_grey_gainsboro

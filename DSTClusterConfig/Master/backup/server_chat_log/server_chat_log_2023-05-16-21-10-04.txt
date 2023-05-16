@@ -1,0 +1,28 @@
+[00:01:14]: [Join Announcement] Zate
+[00:02:38]: [Join Announcement] gsz
+[00:04:36]: [Join Announcement] 律化娜可露琪亚
+[00:12:50]: [Skin Announcement] Zate feet_sneakers_brown_umber
+[00:38:58]: [Death Announcement] Zate 死于： 中暑。她变成了可怕的鬼魂！
+[00:40:03]: [Resurrect Announcement] Zate 复活自： 试金石.
+[00:47:35]: [Skin Announcement] 律化娜可露琪亚 legs_skirt_basic_pink_pigman
+[01:06:22]: [Skin Announcement] gsz legs_skirt_basic_brown_sepia
+[01:12:52]: [Death Announcement] Zate 死于： 蜘蛛战士。她变成了可怕的鬼魂！
+[01:13:17]: [Resurrect Announcement] Zate 复活自： 试金石.
+[01:16:27]: [Skin Announcement] Zate body_tshirt_orange_pumpkin
+[01:35:02]: [Announcement] <独眼巨鹿>正在破坏<Zate>的<狐狸房子/5151>
+[01:37:14]: [Death Announcement] gsz 死于： 时间流逝。她变成了可怕的鬼魂！
+[01:38:14]: [Resurrect Announcement] gsz 复活自： 试金石.
+[01:51:36]: [Death Announcement] gsz 死于： 时间流逝。她变成了可怕的鬼魂！
+[01:58:18]: [Resurrect Announcement] gsz 复活自： 试金石.
+[01:59:10]: [Skin Announcement] 律化娜可露琪亚 hand_wickerbottom_spiderwitch
+[02:06:36]: [Announcement] <gsz>正在破坏<Zate>的<狐狸房子/4197>
+[02:15:05]: [Skin Announcement] Zate legs_skirt_basic_green_leaf
+[02:16:18]: [Announcement] <gsz>正在破坏<Zate>的<狐狸房子/4038>
+[02:25:18]: [Skin Announcement] gsz bedroll_furry_quilt_red_redbird
+[03:16:50]: [Skin Announcement] Zate legs_wortox_masquerade
+[03:20:12]: [Skin Announcement] 律化娜可露琪亚 feet_ankleboot_grey_dark
+[03:35:47]: [Death Announcement] Zate 死于： 皮弗娄牛。她变成了可怕的鬼魂！
+[03:36:10]: [Resurrect Announcement] Zate 复活自： 试金石.
+[03:37:39]: [Death Announcement] 律化娜可露琪亚 死于： 皮弗娄牛。她变成了可怕的鬼魂！
+[03:38:17]: [Skin Announcement] gsz body_woodie_ice
+[03:39:18]: [Resurrect Announcement] 律化娜可露琪亚 复活自： 试金石.
