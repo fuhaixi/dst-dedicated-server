@@ -1,6 +1,0 @@
-[00:01:10]: [Join Announcement] Zate
-[00:04:50]: [Join Announcement] GoldWind
-[00:08:10]: [Join Announcement] 律化娜可露琪亚
-[00:09:51]: [Leave Announcement] GoldWind
-[00:09:55]: [Leave Announcement] Zate
-[00:09:55]: [Leave Announcement] 律化娜可露琪亚
